@@ -1,0 +1,18 @@
+{{ $file := .Params.datafile}}{{ $animals := getJSON $file }}
+
+<table>
+  <thead>
+    <tr>
+      <th>Animal</th>
+      <th>Sound</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ range $animals }}
+    <tr>
+      <td>{{ .animal }}</td>
+      <td>{{ .sound }}</td>
+    </tr>
+  {{ end }}
+  </tbody>
+</table>
