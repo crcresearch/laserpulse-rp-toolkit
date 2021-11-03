@@ -45,3 +45,6 @@ Temporary Items
 hugo.exe
 hugo.darwin
 hugo.linux
+
+node_modules
+package-lock.json
