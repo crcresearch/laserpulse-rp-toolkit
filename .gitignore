@@ -46,5 +46,6 @@ hugo.exe
 hugo.darwin
 hugo.linux
 
+#node files/folders
 node_modules
 package-lock.json

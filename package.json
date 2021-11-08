@@ -20,6 +20,7 @@
   "dependencies": {
     "airtable": "^0.10.1",
     "csvtojson": "^2.0.10",
+    "hugo": "0.0.3",
     "lite-server": "^2.5.4"
   }
 }
