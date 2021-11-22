@@ -125,7 +125,40 @@ const ALLOWED_FIELDS = [
       userLocale: 'en',
       view: 'Grid view',
     }).all();
-    console.log(records[0].fields['Name (from Discussion Guide Questions)']);
+
+    const results = [];
+    // console.log(records[0].fields['Name (from Discussion Guide Questions)']);
+    console.log(records.length);
+    for (let i = 0; i < records.length; i++){
+      results[i] = {
+        "blindspot_name" : records[i].fields['Blindspot'],
+        "academic_perspective" : records[i].fields['Academic Perspective'],
+        "practitioner_perspective" : records[i].fields['Practitioner Perspective'],
+        "convergence_opportunities" : records[i].fields['Convergence Opportunities']
+      };
+    };
+    // console.log(JSON.stringify(results, null, 2));
+    console.log(records[0]);
+
+// I(Noel) found the below as a we to get to foreign key data.  Haven't gotten it to work
+// try{
+//     let testy = await base('Blindspots').select({filterByFormula: "{Toolkit Resources} = \"Toolkit Item\""}).all();
+//   } catch(err) {console.error(err); }
+//   console.log("testy => ", testy);
+
+  // const records2 = await base('Toolkit Resources').select({
+  //   // cellFormat: 'string',
+  //   timeZone: 'America/Indiana/Indianapolis',
+  //   userLocale: 'en',
+  //   view: 'Grid view',
+  // }).all();
+
+  // console.log(records2[0]);
+
+
+
+
+
   //   const results = {
   //     records: [],
   //     filteredFields: {}

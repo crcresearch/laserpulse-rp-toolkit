@@ -45,6 +45,7 @@ Temporary Items
 hugo.exe
 hugo.darwin
 hugo.linux
+hugo
 
 #node files/folders
 node_modules

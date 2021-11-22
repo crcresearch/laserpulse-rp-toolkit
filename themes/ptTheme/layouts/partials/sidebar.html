@@ -15,7 +15,7 @@
         <div class="mt10 recent">
             <h2>Recent articles</h2>        
              <ul>
-                {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+                {{ range first 3 (where .Site.RegularPages "Section" "blindspots") }}
 
                       <li>
                       <p><a href="{{ .Permalink }}">{{ .Title }}</a><small>&nbsp;&nbsp;{{ .Date.Format "January 2, 2006" }}</small></p>
