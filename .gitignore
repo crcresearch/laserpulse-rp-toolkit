@@ -50,3 +50,6 @@ hugo
 #node files/folders
 node_modules
 package-lock.json
+
+#backup json file
+blindspots_backup.json

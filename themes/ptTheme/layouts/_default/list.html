@@ -1,5 +1,11 @@
 
 {{ define "main" }}
+<style>
+  .card-header{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,216,252,1) 100%);
+  }
+</style>
 
 <div class="home">
  
@@ -10,8 +16,9 @@
             <div class="col-md-4 card">
              <a href="{{ .Permalink }}" class="index-anchor">    
                 <div class="panel panel-default">
-                  Add an image or some color here<br />
-
+                  <div class="card-header">
+                  .
+                  </div>
      
                   <!-- image area? -->
                   <!-- {{ if .Params.img }}

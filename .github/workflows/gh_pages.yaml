@@ -33,9 +33,7 @@ jobs:
           publish_dir: ./public
       - name: Fetch data from Airtable API
           run: |
-            OUTPUT_FILE_NAME=data_`date +%s`.json
-            npm run --silent airtable | tee data/$OUTPUT_FILE_NAME
-            ln -sf $OUTPUT_FILE_NAME data/blindspots.json
+            npm run --silent airtable | tee data/blindspots.json
       - name: Push changes to repo
           run: |
             git add data/$OUTPUT_FILE_NAME data/blindspots.json

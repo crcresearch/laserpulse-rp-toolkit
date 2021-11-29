@@ -1,114 +1,6 @@
 const airtable = require('airtable');
 const csv = require('csvtojson');
 
-const ALLOWED_FIELDS = [
-  {
-    name: 'Author(s)',
-    isArray: true,
-    isFiltered: false
-  },
-  {
-    name: 'Country(ies)',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'Document ID',
-    isArray: false,
-    isFiltered: false
-  },
-  {
-    name: 'Document Title',
-    isArray: false,
-    isFiltered: false
-  },
-  {
-    name: 'Key Findings',
-    isArray: false,
-    isFiltered: false
-  },
-  {
-    name: 'Key Recommendations',
-    isArray: false,
-    isFiltered: false
-  },
-  {
-    name: 'Internet URL of Document',
-    isArray: false,
-    isFiltered: false
-  },
-  {
-    name: 'Private Sector Industry',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'Name of Private Sector Partner(s)',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'R4D Activities',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'R4D Outcomes',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'Publishing Institution(s)',
-    isArray: true,
-    isFiltered: false
-  },
-  {
-    name: 'Special Considerations',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'Technical Sector',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'Type of Document',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'Type of Enterprise',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'USAID-Funded?',
-    isArray: false,
-    isFiltered: false
-  },
-  {
-    name: 'USAID Region',
-    isArray: true,
-    isFiltered: true
-  },
-  {
-    name: 'Year',
-    isArray: false,
-    isFiltered: false
-  },
-  {
-    name: 'Direction of Evidence',
-    isArray: true,
-    isFiltered: false
-  },
-  {
-    name: 'Methodologies Used',
-    isArray: true,
-    isFiltered: true
-  }
-];
-
 /**
  * Fetches data from Airtable, serializes it to JSON and outputs it to stdout.
  * Requires the AIRTABLE_API_KEY and AIRTABLE_BASE_ID environment variables to be set.
@@ -127,81 +19,53 @@ const ALLOWED_FIELDS = [
     }).all();
 
     const results = [];
-    // console.log(records[0].fields['Name (from Discussion Guide Questions)']);
-    console.log(records.length);
     for (let i = 0; i < records.length; i++){
       results[i] = {
         "blindspot_name" : records[i].fields['Blindspot'],
         "academic_perspective" : records[i].fields['Academic Perspective'],
         "practitioner_perspective" : records[i].fields['Practitioner Perspective'],
-        "convergence_opportunities" : records[i].fields['Convergence Opportunities']
+        "convergence_opportunities" : records[i].fields['Convergence Opportunities'],
+        "DGQ" : [],
+        "toolkit_resources" : []
       };
+      try {
+        for (let j = 0; j < records[i].fields['Discussion Guide Questions'].length; j++) {
+          DGQ_ID = records[i].fields['Discussion Guide Questions'][j];
+          base('Discussion Guide Questions').find(DGQ_ID, function(err, dgq_record) {
+            if (err) { console.error(err); return; }
+            results[i].DGQ[j] = {
+              "question" : dgq_record.fields['Question'],
+              "perspective" : dgq_record.fields['Perspective']
+            };
+          });
+        };
+      } catch(err){
+        // console.log("DGQ error => ");
+        // console.error(err);
+      }
+      try {
+        for (let k = 0; k < records[i].fields['Toolkit Resources'].length; k++) {
+          TR_ID = records[i].fields['Toolkit Resources'][k];
+          base('Discussion Guide Questions').find(TR_ID, function(err, tr_record) {
+            if (err) { console.error(err); return; }
+            results[i].toolkit_resources[k] = {
+              "tool_item" : tr_record.fields['Toolkit Item'],
+              "url" : tr_record.fields['URL'],
+              "author_institution" : tr_record.fields['Author or Institution'],
+              "blindspot_quote" : tr_record.fields['Blindspot Quote'],
+              "type_resource" : tr_record.fields['Type of Resource'],
+              "year" : tr_record.fields['Year']
+            };
+        });
+        };
+      }catch(err){
+        // console.log("toolkit resource error => ");
+        // console.error(err);
+      }
     };
-    // console.log(JSON.stringify(results, null, 2));
-    console.log(records[0]);
-
-// I(Noel) found the below as a we to get to foreign key data.  Haven't gotten it to work
-// try{
-//     let testy = await base('Blindspots').select({filterByFormula: "{Toolkit Resources} = \"Toolkit Item\""}).all();
-//   } catch(err) {console.error(err); }
-//   console.log("testy => ", testy);
-
-  // const records2 = await base('Toolkit Resources').select({
-  //   // cellFormat: 'string',
-  //   timeZone: 'America/Indiana/Indianapolis',
-  //   userLocale: 'en',
-  //   view: 'Grid view',
-  // }).all();
-
-  // console.log(records2[0]);
-
-
-
-
-
-  //   const results = {
-  //     records: [],
-  //     filteredFields: {}
-  //   };
-  //   // Initialize filtered fields
-  //   for (const field of ALLOWED_FIELDS.filter(entry => entry.isFiltered)) {
-  //     results.filteredFields[field.name] = new Set();
-  //   }
-  //   for (const entry of records) {
-  //     const record = entry.fields;
-  //     const result = {};
-  //     // Only add whitelisted fields
-  //     for (const field of ALLOWED_FIELDS) {
-  //       if (record[field.name]) {
-  //         if (field.isArray) {
-  //           const rows = await csv({ noheader: true, output: 'csv'}).fromString(record[field.name]);
-  //           result[field.name] = rows.pop();
-  //           if (field.isFiltered) {
-  //             for (const fieldValue of result[field.name]) {
-  //               results.filteredFields[field.name].add(fieldValue);
-  //             }
-  //           }
-  //         } else {
-  //           result[field.name] = record[field.name];
-  //           if (field.isFiltered) {
-  //             results.filteredFields[field.name].add(result[field.name]);
-  //           }
-  //         }
-  //       }
-  //     }
-  //     results.records.push(result);
-  //   }
-  //   // Convert sets to arrays
-  //   for (const [name, values] of Object.entries(results.filteredFields)) {
-  //     results.filteredFields[name] = Array.from(values).sort();
-  //   }
-  //   results.filteredFields["Year"] = [
-  //     "Before 1990",
-  //     "Since 1990",
-  //     "Since 2006",
-  //     "Since 2016"
-  //   ]
-  //   console.log(JSON.stringify(results, null, 2));
+    setTimeout(function(){
+    console.log(JSON.stringify(results, null, 2));
+    }, 30000);
   } catch (err) {
     console.error(err);
     process.exit(1)
