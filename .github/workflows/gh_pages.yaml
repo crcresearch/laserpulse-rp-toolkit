@@ -38,7 +38,7 @@ jobs:
           node-version: 12
 
       - name: npm install
-        run: npm 12
+        run: npm12
 
       - name: Fetch data from Airtable API
         run: |
