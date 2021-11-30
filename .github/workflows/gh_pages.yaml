@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git config user.name "${{ github.actor }}"
-          git add data/$OUTPUT_FILE_NAME data/latest.json
+          git add data/$OUTPUT_FILE_NAME data/blindspots.json
           git status
           git commit -m "triggered automated Aritable data fetch on $(date)"
           git push
