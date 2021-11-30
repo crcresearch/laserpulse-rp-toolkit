@@ -39,7 +39,7 @@ jobs:
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
       - name: Push changes to repo
         run: |
-          git add data/$OUTPUT_FILE_NAME data/blindspots.json
+          git add data/blindspots.json
           git status
           git commit -m "triggered automated Aritable data fetch on $(date)"
           git push
