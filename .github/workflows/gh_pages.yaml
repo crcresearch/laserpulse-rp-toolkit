@@ -34,6 +34,9 @@ jobs:
       - name: Fetch data from Airtable API
           run: |
             npm run --silent airtable | tee data/blindspots.json
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
       - name: Push changes to repo
           run: |
             git add data/$OUTPUT_FILE_NAME data/blindspots.json
