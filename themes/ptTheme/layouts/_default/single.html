@@ -1,18 +1,136 @@
-{{ $file := .Params.datafile}}{{ $animals := getJSON $file }}
+{{ define "main" }}
 
-<table>
-  <thead>
-    <tr>
-      <th>Animal</th>
-      <th>Sound</th>
-    </tr>
-  </thead>
-  <tbody>
-  {{ range $animals }}
-    <tr>
-      <td>{{ .animal }}</td>
-      <td>{{ .sound }}</td>
-    </tr>
-  {{ end }}
-  </tbody>
-</table>
+<style>
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+</style>
+
+<div class="row">
+<div class="col-md-8">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+          <header class="post-header">
+            {{ $file := .Params.datafile}}
+            {{ $index := .Params.index }}
+            {{ if $file }}
+              {{ $blindspots := getJSON $file }} 
+              {{ $blindspot := index $blindspots $index }}   
+              <h1 class="post-title" itemprop="name headline">{{ $blindspot.blindspot_name }}</h1>
+              <span>*phase*</span>
+            {{ end }}
+          </header>
+
+          <div class="post-content" itemprop="articleBody">
+            {{ .Content }}
+            {{ $file := .Params.datafile}}
+            {{ $index := .Params.index }}
+            {{ if $file }}
+              {{ $blindspots := getJSON $file }} 
+              {{ $blindspot := index $blindspots $index }}  
+              <table>
+                <thead>
+                  <tr>
+                    <th>Researcher perspective</th>
+                    <th>Practitioner perspective</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>{{ $blindspot.academic_perspective }}</td>
+                    <td>{{ $blindspot.practitioner_perspective }}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table>
+                <thead>
+                  <tr>
+                    <th text-align="center">Convergence Point</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>{{ $blindspot.convergence_opportunities }}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br />
+              <table style="display: inline-block;">
+                <thead>
+                  <tr>
+                    <th>Questions Researchers Can Ask</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{ range $blindspot.DGQ }}
+                    <tr>
+                      {{ if eq .perspective "Researcher Question" }}
+                        <td>{{ index .question  }}</td>
+                      {{ end }}
+                    </tr>
+                  {{ end }}
+                </tbody>
+              </table>
+              <br />
+              <table style="float: right;">
+                <thead>
+                  <tr>
+                    <th>Questions Practitioners Can Ask</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{ range $blindspot.DGQ }}
+                    <tr>
+                      {{ if eq .perspective "Practitioner Question" }}
+                        <td>{{ .question  }}</td>
+                      {{ end }}
+                    </tr>
+                  {{ end }}
+                </tbody>
+              </table>
+              <br />
+              <table>
+                <thead>
+                  <tr>
+                    <th>Questions Both Can Ask</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{ range $blindspot.DGQ }}
+                    <tr>
+                      {{ if eq .perspective "Both" }}
+                        <td>{{ .question  }}</td>
+                      {{ end }}
+                    </tr>
+                  {{ end }}
+                </tbody>
+              </table>
+              <br />
+              <b>Timeline Tools</b><br />
+              {{ range $blindspot.toolkit_resources }}
+                {{ if .tool_item }}
+                  - {{ .tool_item }} <a href=" {{ .url }}"> {{ .author_institution }} {{ .year }}, {{ .blindspot_quote }}</a> <br />
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+
+    </article>
+    <div class="row">
+        {{ if .Site.Params.disqus }}
+         {{ partial "disqus.html" . }}
+        {{ end }}
+    </div>
+    
+
+</div>
+
+
+<!-- {{ partial "sidebar.html" . }} -->
+
+</div>
+
+
+{{ partial "fb-script.html" . }}
+{{ end }}

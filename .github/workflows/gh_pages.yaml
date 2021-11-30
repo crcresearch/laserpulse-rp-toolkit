@@ -31,3 +31,13 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+      - name: Fetch data from Airtable API
+          run: |
+            npm run --silent airtable | tee data/blindspots.json
+      - name: Push changes to repo
+          run: |
+            git add data/$OUTPUT_FILE_NAME data/blindspots.json
+            git status
+            git commit -m "triggered automated Aritable data fetch on $(date)"
+            git push
+
