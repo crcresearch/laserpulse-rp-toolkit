@@ -32,6 +32,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
 
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+
       - uses: actions/setup-node@v1
         with:
           node-version: 12
