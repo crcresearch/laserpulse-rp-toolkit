@@ -39,6 +39,8 @@ jobs:
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
       - name: Push changes to repo
         run: |
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git config user.name "${{ github.actor }}"
           git add data/blindspots.json
           git status
           git commit -m "triggered automated Aritable data fetch on $(date)"
