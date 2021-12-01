@@ -1,36 +1,24 @@
-
 {{ define "main" }}
 <style>
   .card-header{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,216,252,1) 100%);
+    height: 25px;
   }
 </style>
 
 <div class="home">
  
   
-    <div class="row pack">
-
-          {{ range (.Paginator 9).Pages }}   
-            <div class="col-md-4 card">
+    <div>
+           <!-- quick fix to itterate.  Can generate something better if needed -->
+          {{ range (.Paginator 20).Pages }}   
+            <div class="card">
              <a href="{{ .Permalink }}" class="index-anchor">    
                 <div class="panel panel-default">
                   <div class="card-header">
-                  .
                   </div>
-     
-                  <!-- image area? -->
-                  <!-- {{ if .Params.img }}
-                  {{ with .Resources.Match .Params.img }}
-                    {{ range . }}
-                      <img width="100%" src="{{ .RelPermalink }}" alt="{{ .Title }}">
-                    {{ end }}
-                  {{ end }}
-                  {{ else }}
-                  <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
-                  {{ end }} -->
-                  
+                      
                   <div class="panel-body">
                     {{ $file := .Params.datafile}}
                     {{ $index := .Params.index }}
