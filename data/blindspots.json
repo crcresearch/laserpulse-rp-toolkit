@@ -950,7 +950,10 @@
         "question": "What experience do you have working with development practitioners? How/has your research been used by practitioners in the past?",
         "perspective": "Practitioner Question"
       },
-      null,
+      {
+        "question": "Has this type of research been done before? In this context? What’s new/nuanced about what you’re proposing?",
+        "perspective": "Practitioner Question"
+      },
       {
         "question": "Are you able to design and produce research products with practical relevance to an array of stakeholders? (e.g. donor, local partners, community stakeholders, etc.)",
         "perspective": "Practitioner Question"
