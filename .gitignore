@@ -51,5 +51,6 @@ hugo
 node_modules
 package-lock.json
 
-#backup json file
+#json files
 blindspots_backup.json
+blindspots.json
