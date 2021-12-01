@@ -2138,7 +2138,13 @@
         "type_resource": "Template",
         "year": 2021
       },
-      null,
+      {
+        "tool_item": "Visioning",
+        "url": "http://www.mspguide.org/tool/visioning",
+        "author_institution": "MSP ",
+        "type_resource": "Discussion Guide",
+        "year": 2021
+      },
       {
         "tool_item": "Stakeholder characteristics and roles ",
         "url": "http://www.mspguide.org/tool/visioning",
