@@ -65,7 +65,7 @@ const csv = require('csvtojson');
     };
     setTimeout(function(){
     console.log(JSON.stringify(results, null, 2));
-    }, 30000);
+    }, 45000);
   } catch (err) {
     console.error(err);
     process.exit(1)
