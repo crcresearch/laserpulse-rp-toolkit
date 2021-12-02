@@ -22,21 +22,31 @@ jobs:
         with:
           hugo-version: '0.85.0'
 
-      - name: Build
-        run: hugo --minify
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: npm install
+        run: npm install
+
       - name: Fetch data from Airtable API
         run: |
           npm run --silent airtable | tee data/blindspots.json
         env:
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+
       - name: Push changes to repo
         run: |
           git config user.email "${{ github.actor }}@users.noreply.github.com"
@@ -45,4 +55,7 @@ jobs:
           git status
           git commit -m "triggered automated Aritable data fetch on $(date)"
           git push
+
+      - name: Build
+        run: hugo --minify
 
