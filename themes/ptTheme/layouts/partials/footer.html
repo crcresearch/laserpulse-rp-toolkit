@@ -1,33 +1,52 @@
-<footer>
-    <div class="container">
-        <div class="row p20">
-            {{ with .Site.Params.copyright }}
-                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="{{ .link }}">{{ .name }}</a></div>
-            {{ end }}
-
-            <div class="col-md-4 text-center mt25" >
-                {{ with .Site.Params.builtBy }}
-                <a target="_blank" href="https://bool.netlify.com"><img src="https://img.shields.io/badge/Built%20by-bool-brightgreen.svg" alt="{{.}}"></a>
-                {{ end }}
+<footer class="footer mt-auto bg-dark">
+    <div class="wash-200" style="background-color: #e9ecef;">
+      <div class="container-fluid">
+        <div class="row py-4">
+          <div class="col-lg-3 desc-col text-center text-lg-left">
+            <p class="my-0 text-muted pb-4 pb-lg-0">
+                This work is a partnership between USAID and the University of Notre Dame.
+            </p>
+          </div>
+          <div class="col-lg-9">
+            <div class="row brand-line">
+              <div class="col-sm-3 py-3" v-for="foot in config.footerSection.partners">
+                <a href="https://www.usaid.gov" target ="_blank">
+                    <img src="images/usaid-logo.png" class="img-fluid img-65" alt="USAID Dame">
+                </a>
+              </div>
+              <div class="col-sm-3 py-3" v-for="foot in config.footerSection.partners">
+                <a href="https://www.nd.edu" target ="_blank">
+                    <img src="images/nd_mark_blue.png" class="img-fluid img-50" alt="Notre Dame logo">
+                </a>
+              </div>
+              <div class="col-sm-3 py-3" v-for="foot in config.footerSection.partners">
+                <a href="https://www.nd.edu" target ="_blank">
+                    <img src="images/nd_mark_blue.png" class="img-fluid img-50" alt="Notre Dame logo">
+                </a>
+              </div>
             </div>
-            <div class="col-md-4 text-center mt25">
-               {{ with .Site.Params.facebook }}
-                <a target="_blank" href="{{.}}"><li class="social facebook"><i class="fa fa-facebook-square"></i></li></a> 
-                {{ end }}
-               {{with  .Site.Params.quora }}
-                <a target="_blank" href="{{.}}"><li class="social quora"><i class="fa fa-quora"></i></li></a>
-                {{ end }}
-               {{with  .Site.Params.twitter }}
-                <a target="_blank" href="{{.}}"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
-                {{ end }}
-               {{with  .Site.Params.github }}
-                <a target="_blank" href="{{.}}"><li class="social github"><i class="fa fa-github-square"></i></li></a>
-                {{ end }}
-               {{with  .Site.Params.email }}
-                <a target="_blank" href="mailto:{{.}}"><li class="social email"><i class="fa fa-envelope"></i></li></a>
-                {{ end }}
-            </div>
-
-        </div> 
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
+
+    <div class="container-fluid" style="background-color: #243953;">
+      <div class="row py-3 cpy-line">
+        <div class="col-md-6">
+          <p class="text-white-50 mb-0 text-center text-md-left">
+            Copyright &copy; 2021
+            <a class="text-reset" href="https://www.nd.edu"
+              >University of Notre Dame</a
+            >
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-white-50 mb-0 text-center text-md-right">
+            <a class="text-reset" href="https://pulte.nd.edu"
+              >Pulte Institute for Global Development</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
