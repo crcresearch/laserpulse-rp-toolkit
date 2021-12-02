@@ -54,3 +54,6 @@ package-lock.json
 #json files
 blindspots_backup.json
 blindspots.json
+
+#dev specific use or legacy
+simpler.yaml
