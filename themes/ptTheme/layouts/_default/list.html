@@ -8,8 +8,6 @@
 </style>
 
 <div class="home">
- 
-  
     <div>
            <!-- quick fix to itterate.  Can generate something better if needed -->
           {{ range (.Paginator 20).Pages }}   
@@ -18,7 +16,6 @@
                 <div class="panel panel-default">
                   <div class="card-header">
                   </div>
-                      
                   <div class="panel-body">
                     {{ $file := .Params.datafile}}
                     {{ $index := .Params.index }}
@@ -39,9 +36,7 @@
                 </div>
                 </a>
             </div>
-        
           {{ end }}
-
     </div> 
     
 <div class="row">
@@ -73,10 +68,6 @@
           {{ end }}
           </ul>
         {{ end }}
-
-    </div>
-    <div class="col-md-4">  </div>
+    </div> 
 </div>
-</div>
-
 {{ end }}
