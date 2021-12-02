@@ -47,6 +47,9 @@ jobs:
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
 
+      - name: Build
+        run: hugo --minify
+
       - name: Push changes to repo
         run: |
           git config user.email "${{ github.actor }}@users.noreply.github.com"
@@ -55,7 +58,3 @@ jobs:
           git status
           git commit -m "triggered automated Aritable data fetch on $(date)"
           git push
-
-      - name: Build
-        run: hugo --minify
-
