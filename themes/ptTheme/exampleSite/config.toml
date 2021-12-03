@@ -1,9 +1,12 @@
-baseurl = "https://crcresearch.github.io/"
+baseURL = 'https://crcresearch.github.io/laserpulse-rp-toolkit/'
 languageCode = "en-us"
 title = "Hugo Cards"
 theme = "hugo-cards"
 themesDir = "../.."
 paginate = 6
+
+RelativeURLs=true
+CanonifyURLs=true
 
 [params]
   builtBy = "bool"

@@ -1,33 +1,38 @@
-<header class="site-header">
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+<header>
+  <div style="background-color: #243953;">
+    <div class="container" id="top-container">
+      <div class="row mt-3 mb-2 align-items-center">
+        <div class="col-md-6 col-lg-5">
+          <h1 id="egm-title" style="color:steelblue" ><span>LASER PULSE</span><br/>Research & Practicioner Partnership Toolkit</h1>
+          <h5 id="egm-tagline" style="color:white">Blindspots in collaborations, discussion guides, & resouce materials to improve research partnerships</h5>
+        </div>
+        <div class="col-md-6 col-lg-7">
+          <p style="color:lightgray">
+            This toolkit is organized by blindspot, which is a potential area of conflict due to
+            different perspectives of each person involved in a research partnership. Since researchers and
+            practitioners have different world views, experiences, and needs these blindspots can occur. Each
+            blindspot presents a caricature of what an academic researcher and a practitioner might say and a
+            suggested convergence point, or perspective that can ease conflict and improve the partnership.
+          </p>
+        </div>
+      </div>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ .Site.BaseURL }}pages/about/">About</a></li>
-        <li><a href="{{ .Site.BaseURL }}pages/contact/">Contact</a></li>
-        <!-- <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a target="_blank" href="https://github.com/bul-ikana/hugo-cards">Project</a></li>
-            <li><a href="https://github.com/bul-ikana/hugo-cards.git">Download</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a target="_blank" href="https://themes.gohugo.io/">More Themes</a></li>
+  </div>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md" style="background-color: #243953;"> 
+    <!--    <a class="navbar-brand" href="index.html">PSE Evidence Gap Map</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" style="color:darkgray" href="./faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: darkgray;" href="./files/EVIDENCE_GAP_MAP_USER_MANUAL.pdf" target="_blank">About</a>
+            </li>
           </ul>
-        </li> -->
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        </div>
+      </nav>
 </header>
