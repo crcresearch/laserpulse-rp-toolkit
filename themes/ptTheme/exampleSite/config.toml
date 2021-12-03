@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://crcresearch.github.io/"
 languageCode = "en-us"
 title = "Hugo Cards"
 theme = "hugo-cards"

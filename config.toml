@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://crcresearch.github.io/'
 languageCode = 'en-us'
 title = 'RP Toolkit'
 theme = "ptTheme"
