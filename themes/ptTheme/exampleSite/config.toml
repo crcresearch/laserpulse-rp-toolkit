@@ -1,4 +1,4 @@
-baseurl = "https://crcresearch.github.io/laserpulse-rp-toolkit/"
+baseurl = "https://crcresearch.github.io/"
 languageCode = "en-us"
 title = "Hugo Cards"
 theme = "hugo-cards"
