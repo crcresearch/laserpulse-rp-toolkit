@@ -7,7 +7,7 @@
 
     {{ partial "header.html" . }}
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="wrapper">
         {{ block "main" . }} {{ end }}
       </div>
@@ -21,6 +21,7 @@
   {{ with .Site.Params.analytics }} 
     {{ partial "analytics.html" . }}
   {{ end }}
-  </body>
+
+  </body>  
 
 </html>
