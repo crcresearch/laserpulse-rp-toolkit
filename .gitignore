@@ -56,3 +56,5 @@ blindspots_backup.json
 
 #dev specific use or legacy
 simpler.yaml
+airtable_hold.js
+airtable2.js

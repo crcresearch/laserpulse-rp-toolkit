@@ -1,10 +1,27 @@
-
 [
   {
     "blindspot_name": "Fiscal/Academic Timelines",
     "academic_perspective": "I need to get these deliverables out before the end of the academic school year\nThe fiscal year end is not convenient because I am just starting classes and getting to know students\nI need time to mobilize and be thorough.  And I am not able to travel much during the academic year due to my teaching requirements. It's difficult to hire graduate students in the middle of the semester or end their appoitnments half way of the semester unless I have other projects to pick them up. \n",
     "practitioner_perspective": "I need to get these deliverables out before the end of the fiscal year\nThe academic year end is not convenient, because we won’t have enough time to get our funds in order\nI have an SOW for this work, can you start next week, travel to the field, and finish two weeks after that?\n",
     "convergence_opportunities": "Summers can be golden, but you have to plan ahead \nSeek long-term, multi-year engagements if possible",
+    "DGQ_ID": [
+      "recZjfupgD0RVzPdk",
+      "recx0cuZwwulaStwS",
+      "rec8iLGM0khH8Kk24",
+      "recuXNsOQH6Lt6K0p",
+      "recB4BFxzx9vvwqlh",
+      "recf0UfUonJXGlodC",
+      "recDvN6SIT4FQii2Z",
+      "recwUJEDQwtjmkvGu",
+      "recLPOLaUKCybFtXu",
+      "rec9C3gCdbXXdmiBl",
+      "rec6XtAfbeDjZ81y8",
+      "recUQqmXHwZ7hsfzV",
+      "recVxd43BcB7ZKBGx",
+      "recZ4Dn8AGSrFhnV6",
+      "rec9ibfi6qa4Vw3ep",
+      "recRVOIk1AKh8bLuG"
+    ],
     "DGQ": [
       {
         "question": "What are the key dates in your fiscal calendar that we should be aware of (e.g., dates by which funds should be allocated/expended, performance reviews, audits, etc)? When do you and/or your office tend to take annual leave?",
@@ -71,38 +88,40 @@
         "perspective": "Practitioner Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Institutional cultures and their implications ",
-        "url": "https://www.elrha.org/wp-content/uploads/2015/01/effective-partnerships-report.pdf",
-        "author_institution": "Hanley and Vogel",
-        "blindspot_quote": "pg.55-58",
-        "type_resource": "Guidelines",
-        "year": 2012
-      },
-      {
-        "tool_item": "Academic and humanitarian working cycles",
-        "url": "https://www.elrha.org/wp-content/uploads/2015/01/effective-partnerships-report.pdf",
-        "author_institution": "Hanley and Vogel ",
-        "blindspot_quote": "pg.59-63",
-        "type_resource": "Guidelines",
-        "year": 2012
-      },
-      {
-        "tool_item": "Checking your assumptions",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.18",
-        "type_resource": "Guidelines",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recrbGB9Wvrjvnoq6",
+      "recSq4LD9TZtpkM6o",
+      "recGUzjffzIwGVhKq"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Student Involvement",
     "academic_perspective": "I cannot fully support this project, but I have a whole gaggle of undergraduate/graduate students who can help, and they are all amazing. I need to spend a lot of time to mentor my students to get them ready for projects that involve practitioners.  Not every student is immediately ready for this.\n",
     "practitioner_perspective": "I need expertise, not a babysitting opportunity \nWhen I hire a senior researcher, I expect that level of work and anaysis and not the level of work of a student who sometimes gets a lot of supervision and sometimes does not",
     "convergence_opportunities": "Academics: Set appropriate expectations for students \nPractitioners: Anticipate that you may give as much as you get in the short term, but that hosting a student can pay long-term dividend.  Students are also excellent at supporting reviews of existing documents and research that others simply do not have time for. Ask to have a discussion about the level of involvement of students and the amount of supervision\n",
+    "DGQ_ID": [
+      "recJcXqRiraTgnfgF",
+      "recJ0ChABaczIY2zw",
+      "rec5sLaXqSIJO9IHs",
+      "recafUcvv1xDqquTH",
+      "recRVIlOmIMwiO16e",
+      "recwIq0ycmG8E1MHB",
+      "recTfavDMXST4qFht",
+      "recLss4tNbGkDd6ZS",
+      "recCI5amvIhGDJcqg",
+      "recXXWDUHWKd8Rbdz",
+      "recUoutXrmMlxA9BS",
+      "recUqUeQoq9UkdoLw",
+      "reckqipsHsq2BQ0U3",
+      "reczqSAc4yonfELxd",
+      "recv1i0yaZNcNKBsU",
+      "reciwL6PuOexxNR4M",
+      "rectFQbj902sgnG3M",
+      "recxtPLRRG3P2rOsJ",
+      "recFp8J4Bj8VgR7UF",
+      "recGUhmQqEkrhVs84"
+    ],
     "DGQ": [
       {
         "question": "What is the SOW and specific deliverables for this collaboration ?",
@@ -182,6 +201,7 @@
       },
       {}
     ],
+    "toolkit_resources_ID": [],
     "toolkit_resources": []
   },
   {
@@ -189,6 +209,32 @@
     "academic_perspective": "The shackles of restraint are nothing compared to the pursuit of truth (and glory)\nLet’s throw everything and the kitchen sink at this problem.  \n",
     "practitioner_perspective": "I am often constrained by what the donor desires\nMy donor’s timelines and resources are usually not at the same level as your research grants, please remember that!\n",
     "convergence_opportunities": "It is important to discuss respective constraints at the beginning and to be honest about which are non-negotiable hard constraints and which are soft constraints that might be negotiable.\nMeet early and often on feasible learning questions of interest to all (academics, practitioners and donors).  Make sure all understand that changes to those questions once established will prolong the timeline and require additional resources!\nAcademics: Recognize that the donor processes and guidelines are every bit as important to INGO operations as IRB guideline are to academics\nINGOs: Be as up front as possible about resource and time constraints imposed by the project\n",
+    "DGQ_ID": [
+      "rec8WyhuPqq3HjnQv",
+      "recegW953grm6bm9p",
+      "recLfe8UQhSjaL4O1",
+      "recfhwHXf5o6tURS7",
+      "recPY9KiVDBJ0iaZM",
+      "rectvTfm6d6TUEY3C",
+      "rec8LrBfxdsP2CkXX",
+      "recc7dX0ASgs40bCR",
+      "recAyIaXoFHZDAgxe",
+      "recioCMioN5PRCEYa",
+      "rec3qZpWpKiRot9fp",
+      "recgCKPw89mWV8dje",
+      "recccJLvmK4NcUEMu",
+      "recHYRT6CHKnaEgjl",
+      "recDbzuby2NKPmXhj",
+      "recTzWP0JakAwDkm2",
+      "rec43emDROWchRYZ0",
+      "recDMuNzfLPaKwEyE",
+      "reciTotmP1P1lgMny",
+      "rechC7dcL20CJYyYO",
+      "recLruS5FMkEdBe7c",
+      "recdoc40Cbi9tpeD8",
+      "rec7lDVQGoZR8TjAg",
+      "reccedc6u4xoSCqDA"
+    ],
     "DGQ": [
       {
         "question": "What does the donor hope to achieve through the research? ",
@@ -287,77 +333,39 @@
         "perspective": "Both"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Who is implementing the research? ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al.",
-        "blindspot_quote": "pg. 37",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Agreeing responsibilities",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 38",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Mapping the five facilitators for enhancing research impact",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_jschl_tk__=pmd__XHWBf6z2t5tlwrvQrY6pxIuazZerjmWlRPUnTZpf78-1630006466-0-gqNtZGzNAlCjcnBszQaR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg.12",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Impact Tracking",
-        "url": "https://docs.wixstatic.com/ugd/6e5046_741d939a7b66452d8448ad65a5b6646f.docx",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 21",
-        "type_resource": "Template",
-        "year": 2021
-      },
-      {
-        "tool_item": "Are we speaking the same language?",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford",
-        "blindspot_quote": "pg. 24",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "What evidence should you choose?",
-        "url": "https://media.nesta.org.uk/documents/Using_Research_Evidence_for_Success_-_A_Practice_Guide.pdf",
-        "author_institution": "Breckon and Roberts ",
-        "blindspot_quote": "pg. 18-28",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Rationales for evidence and types of evidence required for policymakers",
-        "url": "https://media.nesta.org.uk/documents/Using_Research_Evidence_for_Success_-_A_Practice_Guide.pdf",
-        "author_institution": "Breckon and Roberts ",
-        "blindspot_quote": "pg.50 ",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Problem definition worksheet",
-        "url": "http://www.mspguide.org/tool/problem-definition-worksheet",
-        "author_institution": "MSP",
-        "type_resource": "Template",
-        "year": 2021
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recZgStI5jhqomVaj",
+      "reckyuIPQuHh2zb8E",
+      "rechVT184WesHR5xb",
+      "recYtdG8zLC5RjFuw",
+      "recuP83RChyNDUW9H",
+      "recG4QPhZwGuOwSeh",
+      "rechfTfTRmukqeJH0",
+      "recU4iqtzs7JC2iT9"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Competing Demands",
     "academic_perspective": "I will fit this work in between my other academic duties (i.e., teaching, myriad other research projects, writing, committees, student mentorship) during the semester, so please don't expect me to work on the project full-time. \nNow that I’m on the ground in the field, this study or collaboration is everything; I need you, my practitioner friend, to devote all your time and attention in helping me move heaven and earth to make this data collection effort successful.  ",
     "practitioner_perspective": "I bought your time, so you will be available at a moment’s notice\nThis collaboration/study is but one piece (and one I don’t fully understand) of my much larger and complex program; please stop bugging me and being so high maintenance\n",
     "convergence_opportunities": "Be realistic about timelines and deadlines; transparently discuss other priorities that exist and how they might affect collaboration\nInvolve more junior staff/students in the operational aspects to sustain progress\nAcademics: Note that practitioners face gargantuan demands from donors to accomplish a great deal within a short period of time that may have a direct impact on people's lives. Practitioners are counting on you to fulfill your role, and you must be upfront about what you can do and when you can do it. \nPractitioners: Recognize that, if you involve an academic, this is not the same as partnering with another practitioner organization. You are inviting someone who has studied their subject matter intensely, and your program could learn a great deal on ways to be more effcient or generate greater impact for your beneficiaries if you allow the academic space to do what they do. The reality is that the academics may have narrow time windows during which they can devote attention to the collaboration, and these windows may ebb and flow from week to week. ",
+    "DGQ_ID": [
+      "recZ4Dn8AGSrFhnV6",
+      "rec9ibfi6qa4Vw3ep",
+      "recT9jWsb8ksVXjM7",
+      "recEFEd8X7b10wydz",
+      "recVY3Wok6zXIfRVJ",
+      "recy1n9dvfnVpr4ha",
+      "rec0taLqhdq9y3xou",
+      "rec2ZxzaVOjQtUt2U",
+      "recRVOIk1AKh8bLuG",
+      "recY3dpUnWRQtn3lj",
+      "recQqgRwkRZ6fg50Z",
+      "recTmBWdKVIyrACqe",
+      "recLJkIjdRXHv76oH",
+      "recrEWBvtl4JjDgS2"
+    ],
     "DGQ": [
       {
         "question": "How flexible is the timeline? How compatible is the research timeline with the academic calendar?",
@@ -416,75 +424,38 @@
         "perspective": "Practitioner Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Taking Stock of the Resources we Bring",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al.",
-        "blindspot_quote": "pg.21",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Sharing power in knowledge co-production",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg.28",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Define Research Outputs ",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg.27",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Identifying Potential Research Benefits ",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2017/05/Tool_H_Identifying_Research_Benefits.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Authorship and ownership of research outputs ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.43",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Building trust and cultivating partnership relationships",
-        "url": "http://wtgrantfoundation.org/library/uploads/2017/10/Assessing-Research-Practice-Partnerships.pdf",
-        "author_institution": "Hendrick et al.",
-        "blindspot_quote": "pg. 5-8",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Negotiating Trust, Power, and Culture in a Research–Practice Partnership ",
-        "url": "https://journals.sagepub.com/doi/10.1177/2332858419858635",
-        "author_institution": "Denner et al. ",
-        "type_resource": "Discussion Guide",
-        "year": 2019
-      },
-      {
-        "tool_item": "Set Decision Rules ",
-        "url": "http://www.mspguide.org/tool/set-decision-rules",
-        "author_institution": "MSP",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recsayNQfsFK2CGwp",
+      "recKYj4YzhroZRaaT",
+      "recJlvgub9ItP7PaL",
+      "recQ86N3dhnZRYigw",
+      "reccEjtGu1hfWltMq",
+      "rec5xgDZUFbTxp05m",
+      "recmSNwhzCsubVLAN",
+      "recg88ncX3yMRAHuH"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Publish or Perish",
     "academic_perspective": "I need a peer-reviewed publication, preferably in a top-tier journal, because this is the currency for my promotion and tenure processes. Without journal publications, the research work is just waste of time. \nIn order to ensure that my work holds water, I need to be very detailed about the research design methodology and the analytical techniques I used, along with a detailed rationale. Also, please don’t ask me to dumb down my writing. I am technically precise.  \n",
     "practitioner_perspective": "I need a good enough report now, to meet reporting benchmarks for the project, and perhaps even a research or policy brief that distills important information into somnething a busy decision maker can quickly read and understand. I am not usually interested in knowing the ins and outs of how you did the data collection and analysis. Just get to the point and tell me what I need to know. \nWhy is this report so eggheady?\nWhy was I not included as author in the publication about the project?\nIt is going to take HOW LONG to get this article published in a journal?????\n",
     "convergence_opportunities": "Discuss publication expectations and a communication strategy as soon as possible to avoid conflict down the line\nClearly articulate format and audience of report, and both sides should fully expect a process of iteration to ensure reporting meets standards\nConsider dividing the different outputs into two categories, with practitioner staff more involved in the shorter pieces and the academics more involved in the journal articles and longer reports",
+    "DGQ_ID": [
+      "recVkRm3Jx54n7W7A",
+      "rec4ADyfAt1aDSbtB",
+      "rec0DRx48zQLC0bcs",
+      "recUq3ukyNeKZqr4K",
+      "recHT9m1azZsqaOQV",
+      "reccWdd4prDvArMe3",
+      "recQX3t6S2EAN5XYF",
+      "rec8R8niU9gd3w4W1",
+      "recQFzTdK7IB34DPO",
+      "reciwYRfnrzRf6ir5",
+      "rec2748ooTOi6GcPk",
+      "recsT7tawHNxKqa6p",
+      "recS50FMQolNn7HRr"
+    ],
     "DGQ": [
       {
         "question": "What outputs are required by this collaboration to meet your required deliverables?",
@@ -539,92 +510,48 @@
         "perspective": "Both"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Set Decision Rules ",
-        "url": "http://www.mspguide.org/tool/set-decision-rules",
-        "author_institution": "MSP",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Authorship and ownership of research outputs ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.50",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Different needs and tensions: reputational risk",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.45",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Getting the balance right: the labor and skill of communicating research",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.49",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Sharing power in knowledge co-production: authorship",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 28",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Communications Strategy Template ",
-        "url": "https://laserpulse.org/wp-content/uploads/2021/02/Communications_Strategy_Template.docx",
-        "author_institution": "LASER PULSE",
-        "type_resource": "Template",
-        "year": 2020
-      },
-      {
-        "tool_item": "The Communication Path ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.47",
-        "type_resource": "Guidelines",
-        "year": 2017
-      },
-      {
-        "tool_item": "Dissemination Strategies",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al.",
-        "blindspot_quote": "pg.26",
-        "type_resource": "Guidelines",
-        "year": 2017
-      },
-      {
-        "tool_item": "Define research outputs",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford",
-        "blindspot_quote": "pg.27",
-        "type_resource": "Guidelines",
-        "year": 2017
-      },
-      {
-        "tool_item": "Consider the need and value of multiple research outputs ",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 28",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recL9HrPKFPNxUEHD",
+      "recDAosP5KpFPMmY6",
+      "recFyeLZFwX87tFUz",
+      "recgU6JaCvcRBD136",
+      "recWG6Icy9qBLn34v",
+      "recJn2H1zwYrJPWdv",
+      "recqtnuPVQowLr8sv",
+      "recqddir2zMaLE51R",
+      "recOaRzgaGWTxNATx",
+      "recgRya8rSRiMCbGH"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Usefulness of Research Outputs",
     "academic_perspective": "Research outputs are highly relevant to practitioner needs",
     "practitioner_perspective": "Research outputs and formats aren't useful. Researchers have limited skills and capacity for research translation. ",
     "convergence_opportunities": "Plan early for research translation- both the products and dissemination plan.  Expected outputs should be discussed and agreed to at the time of designing the research as much as possible, understanding that other ideas could come up after analyzing the research findings.  Both sides will need to be flexible.  Again, it is important to have clear research questions so that research outputs answer the questions and can then be translated into actions more easily.   ",
+    "DGQ_ID": [
+      "recjoBKdk3ll4ofXX",
+      "reczGgDvansXUbAqg",
+      "rec9wtO482UgKHKGv",
+      "recGkb2ctBaMOnzGn",
+      "recc3Zokxo5CJuYpI",
+      "recppXOetLkdJy9lY",
+      "recczvj8JVUjpkcAv",
+      "recrvcigmFoNJU5Qj",
+      "recApnXPAinB27cVB",
+      "rec8PAkfpxUebZhSB",
+      "rec0jr39qiVjBEVVk",
+      "recG4KJbOmMxtWGb3",
+      "recPGzksbtDXivpiW",
+      "recknJQpZccF7zeeV",
+      "reczMzrCIyXNTEbYc",
+      "recrrFrzctPXQSIJf",
+      "recBYTYt6JgllueiR",
+      "recXRCtcqyhKDm1Lx",
+      "rec9RnBoseB6JeWnB",
+      "recSnWULQ6R7loK3S",
+      "recY9TtGk5y2R7OO8"
+    ],
     "DGQ": [
       {
         "question": "What are the goals of the research outputs?",
@@ -711,76 +638,34 @@
         "perspective": "Researcher Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Different perspectives on what constitutes a research question",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 34",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Research communication: Insights from practice",
-        "url": "https://assets.publishing.service.gov.uk/media/57a08afc40f0b649740008bc/2010-11_Insights-into-RC-final-formatted.pdf",
-        "author_institution": "Carter and Paulus",
-        "blindspot_quote": "pg.86",
-        "type_resource": "Discussion Guide",
-        "year": 2010
-      },
-      {
-        "tool_item": "Know your audience ",
-        "url": "https://www.inasp.info/sites/default/files/2018-04/EIPM%20Toolkit-Ed2-FULL.pdf",
-        "author_institution": "Ademokun et al. ",
-        "blindspot_quote": "pg.153",
-        "type_resource": "Discussion Guide",
-        "year": 2016
-      },
-      {
-        "tool_item": "Tools and Techniques to Enhance Research Impact",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_managed_tk__=pmd_K9Y37aJ0WRTsEuzT5mrXrNGvQJArMLl3LsVicc29l8w-1631717528-0-gqNtZGzNA6WjcnBszROR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg.32",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Stakeholder Mapping and Analysis",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_managed_tk__=pmd_K9Y37aJ0WRTsEuzT5mrXrNGvQJArMLl3LsVicc29l8w-1631717528-0-gqNtZGzNA6WjcnBszROR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg.16",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Rethinking Research Partnerships: Actor Mapping",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al.",
-        "blindspot_quote": "pg. 10",
-        "type_resource": "Guidelines",
-        "year": 2017
-      },
-      {
-        "tool_item": "Research Uptake Checklist ",
-        "url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/514593/Research_Uptake_Checklist.docx",
-        "author_institution": "UKRI",
-        "type_resource": "Checklist or Assessment",
-        "year": 2016
-      },
-      {
-        "tool_item": "A guide for evaluating public engagement activities",
-        "url": "https://www.ukri.org/wp-content/uploads/2020/10/UKRI-16102020-public-engagement-evaluation-guide.pdf",
-        "author_institution": "UKRI",
-        "type_resource": "Guidelines",
-        "year": 2011
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recndeJkDyddkt1iu",
+      "rec7k2QcwcjUGp9PD",
+      "recywCkZxkU0C7sli",
+      "receiXkEJC9jWM9xU",
+      "recrLSyf3uVWgwyUO",
+      "recwMH1G9SudH3yIs",
+      "recJVURUJg8QDVJm5",
+      "recAF71CmJUiE0H2r"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Terminology and Language",
     "academic_perspective": "I am writing for a sophisticated audience of other acedemics.  The language and words I use reflect my mastery of the material and my ability to connect with what my peers are publishing.",
     "practitioner_perspective": "I can't understand what this report is saying, and my teams are going to have an even greater problem understanding your language.  You will have just used me for your peer-reviewed publication, but then I receive little/no benefit from the energy that I invested in helping you.  ",
     "convergence_opportunities": "This is a common frustration in academic-practitioner exchanges.  Ensure that you allow for time and resources to develop versions of the analysis reports that meet the needs of both parties.  You may even want to invest in an editor or third party to assist with this translation process.",
+    "DGQ_ID": [
+      "recgw5IlwvjIkk3l3",
+      "recXRCtcqyhKDm1Lx",
+      "recIxEdDGcdSJfFth",
+      "rec9RnBoseB6JeWnB",
+      "recye9vGo2COKb87Z",
+      "recNVQQGSttlQYCI9",
+      "recNvyrQoSlIaw6ie",
+      "rec0Q5qpzk5HWlckE",
+      "recSnWULQ6R7loK3S"
+    ],
     "DGQ": [
       {
         "question": "In my research I use ____(these terms)_____ to explain the concept we are talking about. What terms do you use?",
@@ -819,101 +704,40 @@
         "perspective": "Practitioner Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Ways of communicating within the partnership",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 28",
-        "type_resource": "Guidelines",
-        "year": 2017
-      },
-      {
-        "tool_item": "Are we speaking the same language",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 24",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Research communication: Insights from practice (",
-        "url": "https://assets.publishing.service.gov.uk/media/57a08afc40f0b649740008bc/2010-11_Insights-into-RC-final-formatted.pdf",
-        "author_institution": "Carter and Paulus ",
-        "blindspot_quote": "pg. 86",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Manage any emerging challenges to your partnership",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford",
-        "blindspot_quote": "pg. 31",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Knowledge For Development: A Literature Review And An Evolving Research Agenda ",
-        "url": "https://www.die-gdi.de/en/discussion-paper/article/knowledge-for-development-a-literature-review-and-an-evolving-research-agenda/",
-        "author_institution": "Akude",
-        "type_resource": "Discussion Guide",
-        "year": 2014
-      },
-      {
-        "tool_item": "Communicate effectively",
-        "url": "http://www.mspguide.org/sites/default/files/case/the_msp_guide_3rd_ed_2019_wcdi_brouwer_woodhill.pdf",
-        "author_institution": "Brouwer",
-        "blindspot_quote": "pg.89",
-        "type_resource": "Discussion Guide",
-        "year": 2015
-      },
-      {
-        "tool_item": "Define Research Outputs ",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg.27",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Consider the need and value of multiple research outputs ",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford",
-        "blindspot_quote": "pg.28",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Tools and Techniques to Enhance Research Impact ",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg.33",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Mapping the Project Path",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.29",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Ways of communicating within the partnership",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 28",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "reccjlvHPWnfbLSqU",
+      "recB4uZWg3RndFxZi",
+      "rechN2tIiL0pS5GNc",
+      "recMHinhU8dQ6sVC6",
+      "recXzPrGsAWQtDeDd",
+      "rechtlzPCxNTVfRFV",
+      "recpTLSFeWuDvcPcJ",
+      "rec7sx3aWzLXSFawO",
+      "recxauVpQdLQsLLIi",
+      "rec4mfXYOHpmPqk6h",
+      "recBu2w2yIJivkCeo"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Perceived Expertise",
     "academic_perspective": "I have devoted my life to studying this topic and I am confident that I know what I am talking about.\nTruth is truth, so stop telling me why this isn’t applicable/possible here. \n",
     "practitioner_perspective": "You are so arrogant; stop treating me like I’m ignorant. I have technical expertise too!\nMoreover, I understand a lot about the context because I live it on a daily basis and can help you understand that better\n",
     "convergence_opportunities": "Treat this as a true intellectual and operational partnership in which each partner is equally important for success.  Both sides should appreciate that they have much to learn through this experience. \nBe cautious of academics who are “big names” in their technical field, but have little international or operational experience.  Choose researchers that not only have technical expertise, but country and regional experience. Consider partnering with local in-country researchers.",
+    "DGQ_ID": [
+      "rec17gGGmBT1ekdtS",
+      "recBuYi0pvl4lmeZb",
+      "recGvl1w05onVeOTX",
+      "recUbrggeYN0chH2P",
+      "recHE6lre1mrPo8oI",
+      "rec19rzo32Me9vmKA",
+      "recI7VKqCiqqu0g4n",
+      "recGh2EOmlH8avmP2",
+      "recR4KMH1AxBjXKXq",
+      "recn3DUm5K7xjoXqZ",
+      "reccbcW1XQwOcauXW",
+      "recY9TtGk5y2R7OO8"
+    ],
     "DGQ": [
       {
         "question": "What mutual value do each of our teams bring to the table?",
@@ -964,45 +788,22 @@
         "perspective": "Researcher Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Comparing Proposals ",
-        "url": "http://www.mspguide.org/sites/default/files/case/the_msp_guide_3rd_ed_2019_wcdi_brouwer_woodhill.pdf",
-        "author_institution": "Brouwer et al. 2015",
-        "type_resource": "Guidelines",
-        "year": 2015
-      },
-      {
-        "tool_item": "Who Produces Evidence? Knowledge Mobilisation, Brokering And Co-creation ",
-        "url": "https://d1ssu070pg2v9i.cloudfront.net/pex/pex_carnegie2021/2016/04/09131011/LOW-RES-2578-Carnegie-Interaction.pdf",
-        "author_institution": "Shucksmith",
-        "blindspot_quote": "pg. 23",
-        "type_resource": "Guidelines",
-        "year": 2016
-      },
-      {
-        "tool_item": "Ethics in Partnership Research ",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 26",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Principles and guidelines for ethical research and evaluation in international development ",
-        "url": "https://rdinetwork.org.au/effective-ethical-research-evaluation/ethical-practice-starter-kit/research-merit-integrity/",
-        "author_institution": "RDI",
-        "type_resource": "Guidelines",
-        "year": 2021
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recJ2WWzicfRoIvGE",
+      "rec90FW4UMTvz4g6H",
+      "recqnViwgPn7JhAzc",
+      "recSsys6suSdPrvJw"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Review",
     "academic_perspective": "I am the expert in this area. Anything I produce should not be reviewed or questioned. ",
     "practitioner_perspective": "I need to review research outputs because I will apply them. I need to understand where the statements came from so I can apply them appropriately. ",
     "convergence_opportunities": "Researchers and practitioners have complimentary skill sets. For research to be applied and influence practice, the two need to work as a team. Researchers need to be open to accepting feedback from pracitioners because it can improve the impact of the research.",
+    "DGQ_ID": [],
     "DGQ": [],
+    "toolkit_resources_ID": [],
     "toolkit_resources": []
   },
   {
@@ -1010,6 +811,18 @@
     "academic_perspective": "This collaboration needs to meet the highest standards of scientific rigour\nThis seems interesting; let’s add it!\n",
     "practitioner_perspective": "Can we not just call something good enough and be done with it?\nHow much time and effort do you think we and our communities have to give to answering your unreasonable number of questions?\nI actually don't know how much completing this research activity will actually cost, so I am going to pack the scope of work with deliverables and see if I can lowball the academic partner.\nWouldn't it be enough to explore two or three of the most practical influencing factors and not all of them? As a practitioner, I can live with \"good enough\", because my objective is to make an informed decision, not to have a fully unbiased, generalizable view of a certain topic.",
     "convergence_opportunities": "Academics: Have the discipline to stick to need-to-know vs nice-to-know. Understand that many of the respondents are also program participants with the practitioners, and being too demanding of these participants during data collection can negatively influence the relationship that practitioners have with communities.\nINGOs: Anticipate that requirements for academic rigor may exceed your comfort zone, but don’t be afraid to push back at times, particularly when it could jeapardize important relationships with government or communities with whom you work. \n",
+    "DGQ_ID": [
+      "recdkZcYpVcnHo5jf",
+      "recpdlsBIesVzEBkb",
+      "recxoUZQqPj5BdKmm",
+      "recMuJLxtpWUCyQJ8",
+      "recKEXivDGPtEFVCh",
+      "rec39QyiLrfy4j2wl",
+      "recAD6qvSlbb9Gb2j",
+      "recD2v3YvswqnUmo8",
+      "recfBSzAVIoacD8to",
+      "reciJqcKMFkRIUzvw"
+    ],
     "DGQ": [
       {
         "question": "What do you need to know from the research?",
@@ -1052,128 +865,44 @@
         "perspective": "Both"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Research Merit and Integrity",
-        "url": "https://rdinetwork.org.au/effective-ethical-research-evaluation/ethical-practice-starter-kit/research-merit-integrity/",
-        "author_institution": "RDI",
-        "type_resource": "Guidelines",
-        "year": 2021
-      },
-      {
-        "tool_item": "Checklist of questions for research merit and integrity",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2017/05/P3_Research-Merit_Checklist-fv.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Checklist or Assessment",
-        "year": 2021
-      },
-      {
-        "tool_item": "Problem definition worksheet",
-        "url": "http://www.mspguide.org/tool/problem-definition-worksheet",
-        "author_institution": "MSP",
-        "type_resource": "Template",
-        "year": 2021
-      },
-      {
-        "tool_item": "Prioritizing and Ranking",
-        "url": "http://www.mspguide.org/tool/prioritizing-and-ranking",
-        "author_institution": "MSP",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Different perspectives on what constitutes a research question",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 34",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Understanding research and evidence ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 12",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Who is implementing the research? ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 37",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Clarifying your partnership’s purposes and motivations",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 16-19 ",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Theory of Change ",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_managed_tk__=pmd_fwLexZ9d1ymgwV24RAffCJ4nsVds5vstYYn.IkTTjG4-1631648844-0-gqNtZGzNA6WjcnBszRVR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 23",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Initial Meeting Key Questions ",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 23 ",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "How to do effective knowledge exchange",
-        "url": "https://www.ukri.org/councils/esrc/impact-toolkit-for-economic-and-social-sciences/how-to-do-effective-knowledge-exchange/",
-        "author_institution": "UKRI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Identifying Potential Research Benefits",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2017/05/Tool_H_Identifying_Research_Benefits.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Taking Stock of the Resources we Bring",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.21",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Define research outputs",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 27",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Consider the need and value of multiple research outputs",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 28",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "rec7ss73LXpfoqJIx",
+      "recC5ZlwPep7PfESO",
+      "recrK1fApJ9QBNLSu",
+      "rec4DxXWReO4V0K4Q",
+      "recFzTAGJUqHEdOot",
+      "recJBNig0LvhvNbrA",
+      "recdk2pSo1LQzvG9X",
+      "rec4uHt7OxsjKEk9l",
+      "recJGRyfCDSMDyhmo",
+      "recTlZpSbIIJXwNsM",
+      "recZRNw9Co96JKCCQ",
+      "rec8TxOIeJ0enVKtQ",
+      "reckcUVayJcQVlIpv",
+      "recdCr4cJMQe6MyhA",
+      "recmjCxbJ0U687rGb"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Ethics",
     "academic_perspective": "I can’t start doing anything with you until I get IRB approval from my institution and maybe even from an entity in-country.\nI know this may take some time, but we always do this.\n",
     "practitioner_perspective": "You aren’t drawing blood or testing a drug, why do you need ethical approval to begin with?\nWait, you need how many additional months to get approval? The project is starting next week and I can’t very well put it on hold!\n",
     "convergence_opportunities": "Anticipate and build time for requisite ethical approval, beginning as soon as possible; academics generally cannot cut this corner, and INGOs may learn something about how their own actions could be compromising certain ethical lines at times and ways to inhibit this.   \n",
+    "DGQ_ID": [
+      "reclXRiYJMvx5KKzp",
+      "recZkx36DX6RmNTr3",
+      "recPjfA8QycSK51uG",
+      "recfY8b5bx9lbVVBP",
+      "recejvVrlnbhx1hgq",
+      "recBmB0KoxsQFKxcR",
+      "rec7bbyTueqIEjX2g",
+      "recGf1EssY2cB4Fid",
+      "reciImmFmQ6lWTFCM",
+      "recsni2O0ry8AYmlK",
+      "recUiPBfcshdgrenc",
+      "rec9qq489TH3tNloq"
+    ],
     "DGQ": [
       {
         "question": "What are the local requirements for research approval? What is your understanding of the ethical requirements for collecting data from human subjects? Do you have contacts with any local IRBs?",
@@ -1224,36 +953,30 @@
         "perspective": "Both"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Principles and Guidelines for ethical research and evaluation in international development",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2021/08/Updated-Aug-2021_ACFID-RDI-Network-Ethical-Principles_Accessible.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Guidelines",
-        "year": 2021
-      },
-      {
-        "tool_item": "Ethics in Partnership Research",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 26",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Ethical Community Engagement Practices ",
-        "url": "https://siagi.files.wordpress.com/2019/10/2019-09-siagi_rdi_ece-prinicples-and-practices_final.pdf",
-        "author_institution": "Carter et al. ",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "rec5uFpoYW1HEeeMk",
+      "rec9Ekqpv82XEnmy8",
+      "recEzBXv2CghwY3jB"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Stakeholder Involvement",
     "academic_perspective": "The more individuals you keep encouraging me to involve, the longer the research takes and the more expensive it is. \nI am worried about the donor organization or other stakeholders trying to bias, bury, or otherwise shape the results and conclusions",
     "practitioner_perspective": "We need to consult the local officials, regional representatives, government ministries, donor representatives, and the marginalized communities. \nWe want to be involved in the design of research so it is useful and the production of results so that we know how to use them.\nWe need to discuss findings and results with key stakeholders, because transparency is key to keep all doors open to implement programs",
     "convergence_opportunities": "Stakeholder involvement is critical for research uptake and scale up and ensures that the research questions and research process are context specific.  Carry out stakeholder mapping as a team to identify who to engage at what times and to what level of involvement. Discuss ways to preserve the integrity of the findings while also engaging the stakeholders meaningfully. This step in the process could also identify power dynamics and areas of marginalization that could be critical for both Academics and Practitioners to consider.",
+    "DGQ_ID": [
+      "reczmz9OL184UG9LX",
+      "recW9lsmfO7zTPmen",
+      "rece0LSdAPtuGOU7P",
+      "reclMWVRzutrbaSaj",
+      "rechvicHm1geKK8nL",
+      "recu7uwA7m1fOd3no",
+      "reczQeVjqaHP9Guh5",
+      "recmhMWBjDGDWu3Mh",
+      "recYaK4pFa6E8iD8T",
+      "recrd5vQ59l7WcOwX"
+    ],
     "DGQ": [
       {
         "question": "How do we manage our budget  and (at the same time) ensure we have a diversified pool of engaged stakeholders?",
@@ -1295,110 +1018,37 @@
         "question": "How do you plan to share research findings to key stakeholders and other relevant audiences? How can we help reach a broader/ more diverse audience?"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Setting Principals for Fair and Equitable Partnerships ",
-        "url": "https://rethinkingresearchpartnerships.files.wordpress.com/2018/10/fair-and-equitable-partnerships_research-report-public.pdf",
-        "author_institution": "UKRI",
-        "blindspot_quote": "pg. 9-13",
-        "type_resource": "Discussion Guide",
-        "year": 2018
-      },
-      {
-        "tool_item": "Fostering Participation in Research ",
-        "url": "https://oxfamilibrary.openrepository.com/bitstream/handle/10546/620709/gd-fostering-participation-research-29032019-en.pdf?sequence=1&isAllowed=y",
-        "author_institution": "OXFAM",
-        "type_resource": "Discussion Guide",
-        "year": 2019
-      },
-      {
-        "tool_item": "Stakeholder Analysis - Map and Plan",
-        "url": "https://stemedhub.org/groups/laserpulse/File:/uploads/ERT_Stakeholder_Analysis_2020.pdf",
-        "author_institution": "LASER",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Stakeholder Analysis Matrix",
-        "url": "https://www.fasttrackimpact.com/post/2016-1-9-who-will-benefit-from-your-research-and-who-will-block-it-how-to-identify-stakeholders-so-y",
-        "author_institution": "Reed and Lausevic ",
-        "type_resource": "Discussion Guide",
-        "year": 2019
-      },
-      {
-        "tool_item": "Gender Equality in Research Scale ",
-        "url": "https://cgspace.cgiar.org/bitstream/handle/10568/107418/7270-FTABrief.pdf",
-        "author_institution": "Paez et al. ",
-        "type_resource": "Discussion Guide",
-        "year": 2019
-      },
-      {
-        "tool_item": "How gender and politics came together in social change processes",
-        "url": "https://www.dlprog.org/projects/gender-and-politics-in-practice",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 14 ",
-        "type_resource": "Case Study",
-        "year": 2020
-      },
-      {
-        "tool_item": "Participation of people with disabilities",
-        "url": "https://www.did4all.com.au/ResourceSubTheme.aspx?28119d25-b986-4c30-b62c-80b0f4c4f161",
-        "author_institution": "IDID4all",
-        "type_resource": "Case Study",
-        "year": 2020
-      },
-      {
-        "tool_item": "Making Research Inclusive of People with Disabilities ",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/06/RDI-Network-R4All-Accessible-PDF-1.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Consideration for vulnerable groups",
-        "url": "https://rdinetwork.org.au/effective-ethical-research-evaluation/ethical-practice-starter-kit/justice/",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Ethical community engagement practices",
-        "url": "https://siagi.files.wordpress.com/2019/10/2019-09-siagi_rdi_ece-prinicples-and-practices_final.pdf",
-        "author_institution": "Cater et al. ",
-        "type_resource": "Discussion Guide",
-        "year": 2019
-      },
-      {
-        "tool_item": "Tools and Techniques to Enhance Research Impact ",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_managed_tk__=pmd_K9Y37aJ0WRTsEuzT5mrXrNGvQJArMLl3LsVicc29l8w-1631717528-0-gqNtZGzNA6WjcnBszROR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 32",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Stakeholder Mapping and Analysis",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_managed_tk__=pmd_K9Y37aJ0WRTsEuzT5mrXrNGvQJArMLl3LsVicc29l8w-1631717528-0-gqNtZGzNA6WjcnBszROR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 16",
-        "type_resource": "Worked Example",
-        "year": 2020
-      },
-      {
-        "tool_item": "Creating opportunities for interaction and engagement",
-        "url": "https://www.elrha.org/wp-content/uploads/2015/01/effective-partnerships-report.pdf",
-        "author_institution": "Hanley and Vogel ",
-        "blindspot_quote": "pg. 64 ",
-        "type_resource": "Discussion Guide",
-        "year": 2012
-      }
-    ]
+    "toolkit_resources_ID": [
+      "reccMfDMvqq9I1bXo",
+      "recGznDH5xylp2nNj",
+      "recppqm43VKNwL1ry",
+      "rec7ey9XY32zmvnqF",
+      "recSo70cgkWgMaNq5",
+      "reccvH40iZFBIywhO",
+      "recekFgBtzooUKuRv",
+      "recadm2qcmFofrU68",
+      "rec02WUJQZ0wbcn3X",
+      "recRk3c9vArbTiNQW",
+      "recePiOiYC1sJo7kt",
+      "receYqz98fO61mWpi",
+      "recBCVObB1sEvSEJb"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Definitions of Research",
     "academic_perspective": "Research is about creating knowledge\nAlso, I don't want to say this out loud, but research should show my peers and donors how smart and unique I am, and so my findings should be dramatic!",
     "practitioner_perspective": "Research is for developing evidence for programming and needs to be applied\nAlso, I don't want to say this out loud, but research should show the donor how good I am. Just make sure the conslusions make the organization look good.",
     "convergence_opportunities": "Choose more applied researchers when deciding on research partners.  Have clear research questions before the research project begins and before choosing research partners. Discuss ahead of time how potential negative findings will be handled as part of the partnering process. we both see donors as demanding.",
+    "DGQ_ID": [
+      "rec9UFg366noEQJnQ",
+      "recXsbPTGofR8GKAf",
+      "reco93y2hY0MO795l",
+      "recP2cCxgJdo3PGJP",
+      "recTOrHj2Fxplw7aR",
+      "recxvboqrrz7vShUj",
+      "recrEWBvtl4JjDgS2"
+    ],
     "DGQ": [
       {
         "question": "How do you plan to use this research? How does it complement or supplement programmatic (M&E) data collection? ",
@@ -1429,93 +1079,35 @@
         "perspective": "Practitioner Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "What is evidence-informed decision-making, and why focus on research? ",
-        "url": "https://media.nesta.org.uk/documents/Using_Research_Evidence_for_Success_-_A_Practice_Guide.pdf",
-        "author_institution": "Breckon and Roberts ",
-        "blindspot_quote": "pg.6-12",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Checklist of questions for research merit and integrity",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2017/05/P3_Research-Merit_Checklist-fv.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Checklist or Assessment",
-        "year": 2021
-      },
-      {
-        "tool_item": "Different perspectives on what constitutes a research question ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al.",
-        "blindspot_quote": "pg.34",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Understanding research and evidence",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg.12 ",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Who is implementing the research?",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 37",
-        "type_resource": "Guidelines",
-        "year": 2017
-      },
-      {
-        "tool_item": "Who Produces Evidence? Knowledge Mobilisation, Brokering And Co-creation ",
-        "url": "https://d1ssu070pg2v9i.cloudfront.net/pex/pex_carnegie2021/2016/04/09131011/LOW-RES-2578-Carnegie-Interaction.pdf",
-        "author_institution": "Shucksmith ",
-        "blindspot_quote": "pg. 23",
-        "type_resource": "Discussion Guide",
-        "year": 2016
-      },
-      {
-        "tool_item": "Mapping the five facilitators for enhancing research impact",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_jschl_tk__=pmd__XHWBf6z2t5tlwrvQrY6pxIuazZerjmWlRPUnTZpf78-1630006466-0-gqNtZGzNAlCjcnBszQaR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 12 ",
-        "type_resource": "Guidelines",
-        "year": 2020
-      },
-      {
-        "tool_item": "Impact Tracking ",
-        "url": "https://docs.wixstatic.com/ugd/6e5046_741d939a7b66452d8448ad65a5b6646f.docx",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 21",
-        "type_resource": "Template",
-        "year": 2021
-      },
-      {
-        "tool_item": "Clarifying your partnership’s purposes and motivations ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 16-19 ",
-        "type_resource": "Template",
-        "year": 2017
-      },
-      {
-        "tool_item": "Understanding research and evidence",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 12",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recXZRe5DnOspCBTV",
+      "recShSyUI42mc6Xti",
+      "reczZqnYQ2YAYNuIt",
+      "rec6lJDwKbrtGhjnz",
+      "recmK55G7PD9DXYRl",
+      "recK19qpa6VJYB7Kn",
+      "recDCmHLqhkCnzSHs",
+      "reccWf6cUGRlHv4g0",
+      "recYhkNxCvwNB0lVA",
+      "rec7Ne8xHI38KmYcV"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Evidence",
     "academic_perspective": "The scientific method is the gold standard for research and is the authority on generating reliable evidence. \nAnecdotes and success stories don't teach us much about the truth.",
     "practitioner_perspective": "Not only do we often have in-house research expertise, we work in communities built on generations of local/traditional/indigenous knowledge systems, and we have knowledge about how to use/disseminate/apply research.\nThe human experience is an important source of knowledge.",
     "convergence_opportunities": "Considering various forms of knowledge not only provides more context-relevant understanding for the research, it also will be more likely to generate practical solutions that can be readily applied. ",
+    "DGQ_ID": [
+      "rectpUu44S9tN04yR",
+      "rec2NL3osYILfOyow",
+      "recYBdgkMC3fNV7e2",
+      "recP4sQQ3bU1WjdLy",
+      "recvOd5xrDQcTiZpg",
+      "recOVDNHReT6ksCja",
+      "recEqzbvRUdDPPuKA",
+      "recDbWdYd84vlefs1"
+    ],
     "DGQ": [
       {
         "question": "What type of research or evaluation experience do you have?",
@@ -1550,113 +1142,37 @@
         "perspective": "Practitioner Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Assessing the strength of evidence",
-        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/291982/HTN-strength-evidence-march2014.pdf",
-        "author_institution": "DFID ",
-        "type_resource": "Discussion Guide",
-        "year": 2014
-      },
-      {
-        "tool_item": "The social realities of knowledge for Development ",
-        "url": "https://www.theimpactinitiative.net/impact-lab/collection/introduction",
-        "author_institution": "Georgalakis ",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "What is Evidence ",
-        "url": "https://www.inasp.info/sites/default/files/2018-04/EIPM%20Toolkit-Ed2-FULL.pdf",
-        "author_institution": "Ademokun et al. ",
-        "blindspot_quote": "pg. 45",
-        "type_resource": "Discussion Guide",
-        "year": 2016
-      },
-      {
-        "tool_item": "Understanding Research Design",
-        "url": "https://www.inasp.info/sites/default/files/2018-04/EIPM%20Toolkit-Ed2-FULL.pdf",
-        "author_institution": "Ademokun et al. ",
-        "blindspot_quote": "pg. 118",
-        "type_resource": "Discussion Guide",
-        "year": 2016
-      },
-      {
-        "tool_item": "When can evidence help?",
-        "url": "https://media.nesta.org.uk/documents/Using_Research_Evidence_for_Success_-_A_Practice_Guide.pdf",
-        "author_institution": "Breckon and Roberts",
-        "blindspot_quote": "pg. 13-17",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "What evidence should you choose?",
-        "url": "https://media.nesta.org.uk/documents/Using_Research_Evidence_for_Success_-_A_Practice_Guide.pdf",
-        "author_institution": "Breckon and Roberts ",
-        "blindspot_quote": "pg. 18-28 ",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Rationales for evidence and types of evidence required for policymakers",
-        "url": "https://media.nesta.org.uk/documents/Using_Research_Evidence_for_Success_-_A_Practice_Guide.pdf",
-        "author_institution": "Breckon and Roberts ",
-        "blindspot_quote": "pg. 50",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "How to do effective knowledge exchange",
-        "url": "https://www.ukri.org/councils/esrc/impact-toolkit-for-economic-and-social-sciences/how-to-do-effective-knowledge-exchange/",
-        "author_institution": "UKRI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Identifying Potential Research Benefits",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2017/05/Tool_H_Identifying_Research_Benefits.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Benefits to participants, management of risks, protection from harm",
-        "url": "https://rdinetwork.org.au/effective-ethical-research-evaluation/ethical-practice-starter-kit/beneficence/",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Understanding research and evidence",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 12",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Assessing Common Evidence Products",
-        "url": "https://www.inasp.info/sites/default/files/2018-04/EIPM%20Toolkit-Ed2-FULL.pdf",
-        "author_institution": "Ademokun et al. ",
-        "blindspot_quote": "pg. 113 and 181",
-        "type_resource": "Discussion Guide",
-        "year": 2016
-      },
-      {
-        "tool_item": "Evidence Trees",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 11",
-        "type_resource": "Guidelines",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recL2zkmCppgh5S2m",
+      "recVHN9c5QFfpWqyz",
+      "recvtwOltwvVeKOu2",
+      "reck2Aus4gRKYXoDs",
+      "recZuiSyes5tjbgfU",
+      "rec7IIh5ptnxOIyg9",
+      "recOwLqlG4Dd1VbDx",
+      "recDKfnm6rKmFJ98P",
+      "rec9IbQ6OWQkme5mz",
+      "rec7FYkgsW8tNVY41",
+      "recANGFrrcgHkJnKj",
+      "recP1TWH5jZdDVB0v",
+      "recat35osvNm3Or8o"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Bias and Objectivity",
     "academic_perspective": "I am an objective researcher and can not be influenced by practitioners in  data collection, analysis, and write up of findings.",
     "practitioner_perspective": "I know the reality of the ground and the researcher does not understand. As the funder, I want the research to reflect the reality I know.",
     "convergence_opportunities": "All research is infomred by research and practitioner and can be subjective. Practitioners or researchers can bias research. Both practitioners and researchers need to reflect on their influence in the project and any biasses they may have. Neither researchers or practitioners should assume what the findings of a research project will be. ",
+    "DGQ_ID": [
+      "recEFEd8X7b10wydz",
+      "rec2ZxzaVOjQtUt2U",
+      "recQqgRwkRZ6fg50Z",
+      "recDyuRD6plsvtcmn",
+      "reczjPNppU8VFSIow",
+      "recYaK4pFa6E8iD8T",
+      "recswpuuvy2w3zrGi"
+    ],
     "DGQ": [
       {
         "question": "What level of objectivity and rigor is possible?",
@@ -1687,98 +1203,35 @@
         "perspective": "Practitioner Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Advisory committee - Terms of Reference Template",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf",
-        "author_institution": "Georgeou and Hawksley",
-        "blindspot_quote": "pg. 28",
-        "type_resource": "Template",
-        "year": 2021
-      },
-      {
-        "tool_item": "Different perspectives on what constitutes a research question",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 34",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Who Produces Evidence? Knowledge Mobilisation, Brokering And Co-creation ",
-        "url": "https://d1ssu070pg2v9i.cloudfront.net/pex/pex_carnegie2021/2016/04/09131011/LOW-RES-2578-Carnegie-Interaction.pdf",
-        "author_institution": "Shucksmith ",
-        "blindspot_quote": "pg. 23",
-        "type_resource": "Discussion Guide",
-        "year": 2016
-      },
-      {
-        "tool_item": "Ethics in partnership research ",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 26",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "How to do effective knowledge exchange",
-        "url": "https://www.ukri.org/councils/esrc/impact-toolkit-for-economic-and-social-sciences/how-to-do-effective-knowledge-exchange/",
-        "author_institution": "UKRI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Participatory approaches and managing bias in research",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2017/05/Tool_Q_Participatory_Approaches_Managing_Bias.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Positionality",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_jschl_tk__=pmd__XHWBf6z2t5tlwrvQrY6pxIuazZerjmWlRPUnTZpf78-1630006466-0-gqNtZGzNAlCjcnBszQaR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg.6",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Everyday political Analysis",
-        "url": "https://www.dlprog.org/publications/research-papers/everyday-political-analysis",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 13",
-        "type_resource": "Checklist or Assessment",
-        "year": 2020
-      },
-      {
-        "tool_item": "Institutional and Context Analysis",
-        "url": "https://www.undp.org/content/dam/undp/library/Democratic%20Governance/OGC/UNDP_Institutional%20and%20Context%20Analysis.pdf",
-        "author_institution": "UNDP",
-        "type_resource": "Discussion Guide",
-        "year": 2012
-      },
-      {
-        "tool_item": "Cross cultural competency in research",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2017/05/Tool_F_Cross_cultural_Competency_Research.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Problem-driven political economy analysis",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/2021-RDI-Network-Action-Research-Report-3.0-Interactive.pdf",
-        "author_institution": "Cordeiro et al. ",
-        "blindspot_quote": "pg. 51",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      }
-    ]
+    "toolkit_resources_ID": [
+      "rec62gnFfQ2UzgFOJ",
+      "recZAi4AFdupqTEqZ",
+      "recxM0ftcB0lHTjYv",
+      "recPSCdAtBi8Ko4tm",
+      "recFZDyNsyWMJMYdc",
+      "recgVbj5EfeVkdlmY",
+      "recsNayJLiv2mdTHc",
+      "recRmbKPPfewnheQ0",
+      "recRDXl8LpwNRBEt1",
+      "recjVegSGQwqDqERO",
+      "recjkZMmUYN3cm3nI"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "International Experience",
     "academic_perspective": "I am an expert in my area of study and my knoweldge and expertise knows no geographic boundaries. If it applies here, then it applies there too.",
     "practitioner_perspective": "You haven't done research internationally and specifically in this country before? You can't do this project!",
     "convergence_opportunities": "For many topics, evidence or research findings may not be transferrable to just any geography.  Academics: Being open to the newness of a context and the variations it brings will make your research become even more relevant and richer.  Be open to differences you may witness, and don't be afraid to take some guidance from your INGO partner in this.  \nINGOs: While an academic may not have in-country experience, their perspective and findings from other contexts could offer a perspective that you are missing.  You may learn something that you had not considered before if you give this opportunity a chance to succeed. ",
+    "DGQ_ID": [
+      "recswpuuvy2w3zrGi",
+      "recIMdUiB5Dyr56rx",
+      "recne9i1k8G7XXwx5",
+      "rec8eldFdk9OgYQTt",
+      "recVYLqTnxvTPZziC",
+      "recd92qKsc944WMsX",
+      "recsqNMWhEh8K8R9y"
+    ],
     "DGQ": [
       {
         "question": " What contextual factors could influence the research?",
@@ -1809,66 +1262,33 @@
         "perspective": "Practitioner Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Visioning ",
-        "url": "http://www.mspguide.org/tool/visioning",
-        "author_institution": "MSP",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Problem definition worksheet",
-        "url": "http://www.mspguide.org/tool/problem-definition-worksheet",
-        "author_institution": "MSP",
-        "type_resource": "Template",
-        "year": 2021
-      },
-      {
-        "tool_item": "Everyday political Analysis",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_jschl_tk__=pmd__XHWBf6z2t5tlwrvQrY6pxIuazZerjmWlRPUnTZpf78-1630006466-0-gqNtZGzNAlCjcnBszQaR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 13",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Institutional and Context Analysis",
-        "url": "https://www.undp.org/content/dam/undp/library/Democratic%20Governance/OGC/UNDP_Institutional%20and%20Context%20Analysis.pdf",
-        "author_institution": "UNDP",
-        "type_resource": "Discussion Guide",
-        "year": 2012
-      },
-      {
-        "tool_item": "Cross cultural competency in research ",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2017/05/Tool_F_Cross_cultural_Competency_Research.pdf",
-        "author_institution": "RDI",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Problem-driven political economy analysis",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/2021-RDI-Network-Action-Research-Report-3.0-Interactive.pdf",
-        "author_institution": "Cordeiro et al. ",
-        "blindspot_quote": "pg. 51",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Know Your Audience",
-        "url": "https://www.inasp.info/sites/default/files/2018-04/EIPM%20Toolkit-Ed2-FULL.pdf",
-        "author_institution": "Ademokum et al. ",
-        "blindspot_quote": "pg. 153",
-        "type_resource": "Discussion Guide",
-        "year": 2016
-      }
-    ]
+    "toolkit_resources_ID": [
+      "reciGLlQiPHZT6IZa",
+      "recbNyTZpRdQLITWR",
+      "recvWrEyqBSy49hSZ",
+      "reclnsccKM53qMBHi",
+      "recJnc30BvIEEVl14",
+      "recr6ql5miGVhXGcw",
+      "recwodPURM7jjERor"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Contracting ",
     "academic_perspective": "It takes forever, get started soon!",
     "practitioner_perspective": "It takes forever, get started soon!",
     "convergence_opportunities": "Agree that this is one thing you have in common and that your institutions' language plus donor flow down language is a reality.  Try to get your contracts teams started on discussing any issues with the boilerplate language while you sort out the SOW.",
+    "DGQ_ID": [
+      "rechc4bStu4C8tYKl",
+      "recNX568q8s6YqawS",
+      "rec2F4CEOqYPBQApd",
+      "recIvdJCCosQ2kJiw",
+      "rechTxXbLIUKiHqE8",
+      "recnMcR9GyyYPLIdw",
+      "recushVxs0pbwdv3X",
+      "recyVHI96I54Y2VvL",
+      "rec7ztebVexsImUl3"
+    ],
     "DGQ": [
       {
         "question": " I’d like to be considered a scientific collaborator or co-PI and be integrally involved in project design and execution. Can our agreement be structured as a subaward?",
@@ -1907,30 +1327,27 @@
         "perspective": "Both"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Establish a partnership agreement",
-        "url": "https://www.elrha.org/wp-content/uploads/2015/01/effective-partnerships-report.pdf",
-        "author_institution": "Hanley and Vogel ",
-        "blindspot_quote": "pg. 22",
-        "type_resource": "Template",
-        "year": 2012
-      },
-      {
-        "tool_item": "Partnership agreement template",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford",
-        "blindspot_quote": "pg. 22",
-        "type_resource": "Template",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recU1sJKgJY1Onhxl",
+      "rec8iCMoAYU3mXpaA"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Intellectual Property",
     "academic_perspective": "I thought it, I own it (or my university might own it depending on my employment terms).  Each institution has IP policies to outline different level of ownership at the start of the collaboration or contract.  Sometimes, I don't really care about intellectual property discussions; I will give it away and publish it as long as people use it and give me the credit.\n",
     "practitioner_perspective": "I bought it, I own it\n[Also, hold on just a second: I thought part of it too, don’t discount that!]\nI only have one type of template for a consultancy agreement, in which the INGO has all intellectual property rights; it taes too much effort and the involvement of our legal team to change this.",
     "convergence_opportunities": "Incorporate intellectual property discussions into the collaboration agreement (do not wait until the end). Seek joint ownership whenever possible; if not possible, at very minimum seek unrestricted license \nPractitioners: Develop a new template specifically for a research consultant that allows for a negotiation in IP rights. Develop a MOU with university partners that include intellectual property issues so that can be referred to in all project agreements.  \n\n",
+    "DGQ_ID": [
+      "recMk5uiW6hyjl1Cr",
+      "recWByVojRx3wUAxd",
+      "recqHB8Nr4JhIZ5Uz",
+      "recaok1RczIUvRDu1",
+      "recofXwplC5jkiZc3",
+      "recHBDAgdOqQ0arIz",
+      "recOruXXjaBhcnxD7",
+      "recCGkRxE5Ws1aFHl"
+    ],
     "DGQ": [
       {
         "question": "Who owns the rights to the products of our collaboration? How can we ensure fair use by all parties involved in the research and other institutional partners/key stakeholders?",
@@ -1965,45 +1382,24 @@
         "perspective": "Practitioner Question"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "Intellectual property support: South Africa, Kenya, Uganda, Malawi, Burkina Faso, Mozambique, and Zambia",
-        "url": "https://assets.publishing.service.gov.uk/media/5f8eb8b5e90e0727ce27a2e5/Industry_Collbration_in_Africa.pdf",
-        "author_institution": "Boko",
-        "blindspot_quote": "pg. 69",
-        "type_resource": "Discussion Guide",
-        "year": 2020
-      },
-      {
-        "tool_item": "Establish a partnership agreement",
-        "url": "https://www.elrha.org/wp-content/uploads/2015/01/effective-partnerships-report.pdf",
-        "author_institution": "Hanley and Vogel ",
-        "blindspot_quote": "pg. 22",
-        "type_resource": "Discussion Guide",
-        "year": 2012
-      },
-      {
-        "tool_item": "Partnership agreement template",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 22",
-        "type_resource": "Template",
-        "year": 2017
-      },
-      {
-        "tool_item": "Partnership Agreements",
-        "url": "http://www.mspguide.org/sites/default/files/tool/38msp_tools_partnership_agreement_38.pdf",
-        "author_institution": "MSP",
-        "type_resource": "Template",
-        "year": 2021
-      }
-    ]
+    "toolkit_resources_ID": [
+      "recWb7wrQBhLRMRqf",
+      "reci290IRcBDeTCVR",
+      "recNwW3jwlbCh0TsV",
+      "recpVqqpy8V1ETpcg"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Indirect Cost Structures",
     "academic_perspective": "I have no control over what my institution skims off the top. And quite frankly, your in-country costs seem exremely high as well.",
     "practitioner_perspective": "You want me to pay how much in overhead now? That percentage is outrageous. Can't we negotiate?",
     "convergence_opportunities": "In truth, the base of application for the indirect cost rates is different for each institution, so when you take time to look at the absolute numbers you may not see much of a difference.\nINGOs: Recognize that you actually receive much more in terms of a researcher's time and access to a host of other graduate/undergraduate research assistants than your budget may reveal upon first glance.   There is little room for negotiation if it is a US government grant, but if it is from INGO funds, for example, there may be room to negotiate, especially if the practitioner organization has a policy on acceptable levels of indirect costs. ",
+    "DGQ_ID": [
+      "recMIi63EDiAB5NGB",
+      "rec9KIQXQRU3qLcZ4",
+      "rec6CCe4xwQJn2ZEF"
+    ],
     "DGQ": [
       {
         "question": "Does your organization have a NICRA? If so, can you share it with us?",
@@ -2018,6 +1414,7 @@
         "perspective": "Practitioner Question"
       }
     ],
+    "toolkit_resources_ID": [],
     "toolkit_resources": []
   },
   {
@@ -2025,6 +1422,25 @@
     "academic_perspective": "My role is to do research.",
     "practitioner_perspective": "My role is to advise.",
     "convergence_opportunities": "The type of partnership or collaboration established between researchers and practitioners needs to be decided upon from the begining of the research project. Then assesed and adapted as needed during implmentaiton, dissemination, or evaluation of the project. A conversation between all actors involved can establish clear roles and responsibilities and lower the potential for conflict in the future.",
+    "DGQ_ID": [
+      "recGjEH8GUxRVpmvY",
+      "rec5clDycsovMtebm",
+      "recsrz0TLSc5VSuDZ",
+      "recqv5wNvfSELtQy1",
+      "recVMy6KWLYeZwFct",
+      "recoVUHbb8DILuGIv",
+      "recEVAmjvOFT87lqz",
+      "rechO2W0nu6REB3Zu",
+      "recbRmtj4ns19oi5P",
+      "recrd5vQ59l7WcOwX",
+      "recl1b7Mf1locIJv5",
+      "recQjy3xowSpdz3D5",
+      "recXOSDXKGmksFkAW",
+      "recsKRjuIFnhTKFo1",
+      "recNUW2sIShefETe7",
+      "recYkVazc0R2ddnI4",
+      "recKHysOKkwUXriIg"
+    ],
     "DGQ": [
       {
         "question": "What data/support will the practitioners be able to provide? Are there capacity building needs?",
@@ -2083,117 +1499,48 @@
         "question": "Have we adequately documented the roles and responsibilities in the SOW and/or any agreements?"
       }
     ],
-    "toolkit_resources": [
-      {
-        "tool_item": "A checklist for research partnerships",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 35",
-        "type_resource": "Checklist or Assessment",
-        "year": 2017
-      },
-      {
-        "tool_item": "Agreeing responsibilities ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 38",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Multiple roles for academics in humanitarian practice",
-        "url": "https://rdinetwork.org.au/wp-content/uploads/2020/02/ERIID_V8_DIGITAL.pdf?__cf_chl_jschl_tk__=pmd__XHWBf6z2t5tlwrvQrY6pxIuazZerjmWlRPUnTZpf78-1630006466-0-gqNtZGzNAlCjcnBszQaR",
-        "author_institution": "Georgeou and Hawksley ",
-        "blindspot_quote": "pg. 67",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Establish a partnership agreement ",
-        "url": "https://www.elrha.org/wp-content/uploads/2015/01/effective-partnerships-report.pdf",
-        "author_institution": "Hanley and Vogel ",
-        "blindspot_quote": "pg. 22",
-        "type_resource": "Template",
-        "year": 2021
-      },
-      {
-        "tool_item": "Partnership agreement template",
-        "url": "https://ocdc.coop/wp-content/uploads/2020/09/How-to-Partner-for-Development-Research_fv_Web.pdf",
-        "author_institution": "Winterford ",
-        "blindspot_quote": "pg. 22",
-        "type_resource": "Template",
-        "year": 2017
-      },
-      {
-        "tool_item": "Who is implementing the research? ",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "blindspot_quote": "pg. 37",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      },
-      {
-        "tool_item": "Partnership Agreements",
-        "url": "http://www.mspguide.org/sites/default/files/tool/38msp_tools_partnership_agreement_38.pdf",
-        "author_institution": "MSP",
-        "type_resource": "Template",
-        "year": 2021
-      },
-      {
-        "tool_item": "Visioning",
-        "url": "http://www.mspguide.org/tool/visioning",
-        "author_institution": "MSP ",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Stakeholder characteristics and roles ",
-        "url": "http://www.mspguide.org/tool/visioning",
-        "author_institution": "MSP",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Set decision rules",
-        "url": "http://www.mspguide.org/tool/make-visual-theory-change",
-        "author_institution": "MSP",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Make a visual theory of change",
-        "url": "http://www.mspguide.org/tool/make-visual-theory-change",
-        "author_institution": "MSP",
-        "type_resource": "Discussion Guide",
-        "year": 2021
-      },
-      {
-        "tool_item": "Clarifying your partnership’s purposes and motivations",
-        "url": "https://www.christianaid.org.uk/sites/default/files/2017-10/discussion-guide-ngo-academic-research-oct2017_0.pdf",
-        "author_institution": "Cornish et al. ",
-        "type_resource": "Discussion Guide",
-        "year": 2017
-      }
-    ]
+    "toolkit_resources_ID": [
+      "reczEioAtanxVYjda",
+      "recr199Ms1k1ox04x",
+      "recNqjh3ZB6bVf5S5",
+      "recIQyPz6dlF2KwRU",
+      "recSGU5y3utWbIbML",
+      "recjHyCYfTTuFVLyW",
+      "recBRRp7jTuo3KEqq",
+      "recVEBpuH0dWClR8P",
+      "recATHSMt7RaGspta",
+      "recPApVvsG3wuVa7v",
+      "reczhsQ48iAIplhUr",
+      "recRVNOse2WQU5R1M"
+    ],
+    "toolkit_resources": []
   },
   {
     "blindspot_name": "Preferred Tools and Technology",
+    "DGQ_ID": [],
     "DGQ": [],
+    "toolkit_resources_ID": [],
     "toolkit_resources": []
   },
   {
     "blindspot_name": "Definitions of Reseach",
+    "DGQ_ID": [],
     "DGQ": [],
+    "toolkit_resources_ID": [],
     "toolkit_resources": []
   },
   {
     "blindspot_name": "Fiscal and Academic Timelines",
+    "DGQ_ID": [],
     "DGQ": [],
+    "toolkit_resources_ID": [],
     "toolkit_resources": []
   },
   {
     "blindspot_name": "Scope and Rigor Accessibility",
+    "DGQ_ID": [],
     "DGQ": [],
+    "toolkit_resources_ID": [],
     "toolkit_resources": []
   }
 ]
