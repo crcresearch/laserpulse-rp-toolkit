@@ -79,14 +79,14 @@ try {
   for (const result of results){
     for (const foreignKey of result.toolkit_resources_ID){
       const newInfo = await base('Toolkit Resources').find(foreignKey)
-        result.toolkit_resources.push = {
+        result.toolkit_resources.push({
           "tool_item" : newInfo.fields['Toolkit Item'],
           "url" : newInfo.fields['URL'],
           "author_institution" : newInfo.fields['Author or Institution'],
           "blindspot_quote" : newInfo.fields['Blindspot Quote'],
           "type_resource" : newInfo.fields['Type of Resource'],
           "year" : newInfo.fields['Year'],
-        };
+        });
       };
     };
 
