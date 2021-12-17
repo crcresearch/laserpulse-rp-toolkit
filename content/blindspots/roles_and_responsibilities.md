@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Roles and Responsibilities"
 draft: false
 
 datafile: "/data/blindspots.json"

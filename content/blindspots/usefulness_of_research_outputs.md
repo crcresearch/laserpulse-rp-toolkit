@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Usefulness of Research Outputs"
 draft: false
 
 datafile: "/data/blindspots.json"

@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Bias and Objectivity"
 draft: false
 
 datafile: "/data/blindspots.json"

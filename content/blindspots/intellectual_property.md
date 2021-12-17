@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Intellectual Property"
 draft: false
 
 datafile: "/data/blindspots.json"

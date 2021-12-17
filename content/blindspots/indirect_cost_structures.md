@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Indirect Cost Structures"
 draft: false
 
 datafile: "/data/blindspots.json"
