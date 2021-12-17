@@ -26,6 +26,13 @@ jobs:
       - name:  Install NodeJS dependencies
         run: npm install
 
+      - name: Install mustache.js
+        run: npm install mustache --save
+
+      - name: Update mark down files #create .md files needed based on Airtable data
+        run: |
+          npm run --silent md_creation
+
       - name: Fetch data from Airtable API # Download Data from Airtable
         run: |
           npm run --silent airtable | tee data/blindspots.json
