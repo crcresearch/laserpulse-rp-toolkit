@@ -32,6 +32,9 @@ jobs:
       - name: Update mark down files #create .md files needed based on Airtable data
         run: |
           npm run --silent md_creation
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
 
       - name: Fetch data from Airtable API # Download Data from Airtable
         run: |
