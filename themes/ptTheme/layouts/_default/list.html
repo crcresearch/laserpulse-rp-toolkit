@@ -10,7 +10,7 @@
 <div class="home">
     <div class="container">
            <!-- quick fix to itterate.  Can generate something better if needed -->
-          {{ range (.Paginator 20).Pages }}   
+          {{ range (.Paginator 30).Pages }}   
             <div class="card">
              <a href="{{ .Permalink }}" class="index-anchor">    
                 <div class="panel panel-default">
@@ -20,11 +20,11 @@
                     {{ $file := .Params.datafile}}
                     {{ $index := .Params.index }}
                     {{ if $file }}
-                      {{ $blindspots := getJSON $file }} 
-                      {{ $blindspot := index $blindspots $index }}          
-                      <h3 class="panel-title pull-left">{{ $blindspot.blindspot_name }}</h3>
-                      <br />
-                      <span class="post-meta pull-left"><small>*Phase*</small></span>
+                        {{ $blindspots := getJSON $file }} 
+                        {{ $blindspot := index $blindspots $index }}          
+                        <h3 class="panel-title pull-left">{{ $blindspot.blindspot_name }}</h3>
+                        <br />
+                        <span class="post-meta pull-left"><small>*Phase*</small></span>
                     {{ end }}
                   </div>
                   

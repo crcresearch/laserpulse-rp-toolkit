@@ -18,13 +18,23 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Install NodeJS 12
+      - name: Install NodeJS 16
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 16
 
       - name:  Install NodeJS dependencies
         run: npm install
+
+      - name: Install mustache.js
+        run: npm install mustache --save
+
+      - name: Update mark down files #create .md files needed based on Airtable data
+        run: |
+          npm run --silent md_creation
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
 
       - name: Fetch data from Airtable API # Download Data from Airtable
         run: |
