@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Ethics"
 draft: false
 
 datafile: "/data/blindspots.json"

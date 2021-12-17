@@ -1,12 +1,7 @@
 ---
-title: "Graduate Student Involvement"
-catagory: "Preparation"
+title: "Student Involvement"
 draft: false
 
 datafile: "/data/blindspots.json"
 index: 1
 ---
-
-
-
-

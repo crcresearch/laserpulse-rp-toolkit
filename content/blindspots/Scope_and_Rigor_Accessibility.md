@@ -1,8 +1,7 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Scope and Rigor Accessibility"
 draft: false
 
 datafile: "/data/blindspots.json"
-index: 7
+index: 23
 ---

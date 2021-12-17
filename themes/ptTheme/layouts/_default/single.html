@@ -17,6 +17,7 @@
             {{ if $file }}
                 {{ $blindspots := getJSON $file }} 
                 {{ $blindspot := index $blindspots $index }}   
+                <a href="{{ .Site.BaseURL }}" >Home Page</a> > {{ $blindspot.blindspot_name }}
                 <h1 class="post-title" itemprop="name headline">{{ $blindspot.blindspot_name }}</h1>
                 <span>*phase*</span>
             {{ end }}
@@ -110,7 +111,7 @@
                 <b>Timeline Tools</b><br />
                 {{ range $blindspot.toolkit_resources }}
                   {{ if .tool_item }}
-                    - {{ .tool_item }} <a href=" {{ .url }}"> {{ .author_institution }} {{ .year }}, {{ .blindspot_quote }}</a> <br />
+                    - {{ .tool_item }} <a href=" {{ .url }}" target="_blank"> {{ .author_institution }} {{ .year }}, {{ .blindspot_quote }}</a> <br />
                   {{ end }}
                 {{ end }}
             {{ end }}

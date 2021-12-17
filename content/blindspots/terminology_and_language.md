@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Terminology and Language"
 draft: false
 
 datafile: "/data/blindspots.json"

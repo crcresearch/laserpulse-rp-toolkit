@@ -1,11 +1,7 @@
 ---
-title: "Internal Experience"
-catagory: "Preparation"
+title: "Competing Demands"
 draft: false
 
 datafile: "/data/blindspots.json"
 index: 3
 ---
-
-
-

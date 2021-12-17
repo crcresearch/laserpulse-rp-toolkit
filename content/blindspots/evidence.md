@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Evidence"
 draft: false
 
 datafile: "/data/blindspots.json"

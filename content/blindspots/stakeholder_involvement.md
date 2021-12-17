@@ -1,6 +1,5 @@
 ---
-title: "TBA"
-catagory: "TBA"
+title: "Stakeholder Involvement"
 draft: false
 
 datafile: "/data/blindspots.json"
