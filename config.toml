@@ -1,6 +1,6 @@
 baseURL = 'https://crcresearch.github.io/laserpulse-rp-toolkit/'
 languageCode = 'en-us'
-title = 'RP Toolkit'
+title = 'LASER PULSE Reasearch & Practitioner Partnership Toolkit'
 theme = "ptTheme"
 
 RelativeURLs=true
