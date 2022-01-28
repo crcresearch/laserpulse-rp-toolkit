@@ -5,3 +5,5 @@ theme = "ptTheme"
 
 RelativeURLs=true
 CanonifyURLs=true
+
+custom_css = ["css/hpsb.css"]
