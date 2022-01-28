@@ -27,8 +27,6 @@ CanonifyURLs=true
   
   custom_css = ["css/custom.css"]
 
-  googleAnalytics = 'G-WFZ7YLGQP3'
-
   [params.analytics]
     type="GA4"
     trackingID = "G-WFZ7YLGQP3"
