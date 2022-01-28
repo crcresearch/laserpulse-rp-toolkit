@@ -27,10 +27,6 @@ CanonifyURLs=true
   
   custom_css = ["css/custom.css"]
 
-  [params.analytics]
-    type="GA4"
-    trackingID = "G-WFZ7YLGQP3"
-
   [params.copyright]
      name = "bool"
      link = "https://bool.netlify.com"
