@@ -7,3 +7,8 @@ RelativeURLs=true
 CanonifyURLs=true
 
 custom_css = ["css/hpsb.css"]
+
+[params]
+  [params.analytics]
+    type="GA4"
+    trackingID = "G-WFZ7YLGQP3"

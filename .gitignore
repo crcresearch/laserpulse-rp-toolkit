@@ -84,7 +84,7 @@ Usefulness_of_Research_Outputs.md
 #temp files for new homepage look
 content/HPSB/_index.md
 themes/layouts/HPSB/list.html
-themes/static/css/hpsb.css
+themes/ptTheme/static/css/hpsb.css
 
 
 
