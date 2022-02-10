@@ -1,9 +1,0 @@
-// css 
-{{ range .Site.Params.custom_css -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
-{{- end }}
-
-<h1>{{ .Params.name }}</h1>
-
-<h2>FAQ page placeholder</h2>
-{{ .Content }}

@@ -11,7 +11,7 @@ CanonifyURLs=true
 [params]
   builtBy = "bool"
   defaultImage = "gopher.jpg"
-
+  
   facebook = ""
   quora = ""
   twitter = "http://twitter.com/bul_ikana"
