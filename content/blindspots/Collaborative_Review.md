@@ -1,7 +1,7 @@
 ---
-title: "Review"
+title: "Collaborative Review"
 draft: false
 
 datafile: "/data/blindspots.json"
-index: 8
+index: 1
 ---

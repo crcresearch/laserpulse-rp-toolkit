@@ -37,7 +37,7 @@ let { render } = require("mustache");
             };
         };
 
-        let template = fs.readFileSync("./data/template.md").toString();
+        let template = fs.readFileSync("./static/images/template.md").toString();
 
         fs.rmSync('./content/blindspots/', {recursive: true});
         fs.mkdir('./content/blindspots/',function(err) {

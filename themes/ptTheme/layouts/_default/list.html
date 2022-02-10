@@ -24,7 +24,7 @@
                         {{ $blindspot := index $blindspots $index }}          
                         <h3 class="panel-title pull-left">{{ $blindspot.blindspot_name }}</h3>
                         <br />
-                        <span class="post-meta pull-left"><small>*Phase*</small></span>
+                        <span class="post-meta pull-left"><small>{{ $blindspot.partnership_phase }}</small></span>
                     {{ end }}
                   </div>
                   

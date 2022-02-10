@@ -11,7 +11,7 @@
 <div class="col-auto">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-          <header class="post-header">
+          <header class="post-header" id="breadcrumbs">
             {{ $file := .Params.datafile}}
             {{ $index := .Params.index }}
             {{ if $file }}
@@ -19,7 +19,7 @@
                 {{ $blindspot := index $blindspots $index }}   
                 <a href="{{ .Site.BaseURL }}" >Home Page</a> > {{ $blindspot.blindspot_name }}
                 <h1 class="post-title" itemprop="name headline">{{ $blindspot.blindspot_name }}</h1>
-                <span>*phase*</span>
+                <span>Partnership Phase: {{ $blindspot.partnership_phase }}</span>
             {{ end }}
           </header>
 

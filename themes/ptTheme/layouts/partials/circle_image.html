@@ -1,0 +1,121 @@
+<header>
+    {{ $blindspots := .Site.Data.blindspots }}
+    {{ if $blindspots }}
+    
+        <div id="compass-infographic" class="footer" style="webkit-text-size-adjust: 100%; font-size: 100%; color: #222; font-weight: normal; font-style: normal; line-height: 1.5; cursor: auto; box-sizing: border-box; outline: none !important; margin: 0; padding: 0px 0 60px; background-color: #e9ecef; width: 100%;">
+            <div class="row" style="width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 1200px;">
+            <div class="large-12 columns" style="padding: 0; position: relative; padding-left: 0.9375rem; padding-right: 0.9375rem; float: left; width: 100%;">
+                <div class="wrapper" style="box-sizing: border-box; outline: none !important; margin: 0; padding: 0;">
+                <div class="mid" style="box-sizing: border-box; outline: none !important; padding: 0;width: 510px; height: 510px; background: url('{{ .Site.BaseURL }}images/full_circle_image.png') no-repeat center center; margin: 0 auto; background-size: 370px;">
+                    <ul class="inf" style="box-sizing: border-box; outline: none !important; padding: 0; font-size: 1rem; line-height: 1.6; font-family: inherit; list-style: none; margin: 0 auto; width: 370px; height: 370px; border-radius: 50%; padding-top: 70px; position: relative;">
+                                    <li class="design"style="  box-sizing: border-box; outline: none !important; padding: 0; margin: 0; height: 185px; width: 185px; position: relative; border-radius: 100% 0 0 0; float: right;">
+    
+                        <!-- <a href="/design" class="main-phase" style="  box-sizing: border-box; outline: none !important; text-decoration: none; line-height: inherit; color: #003087; display: block; width: 100%; height: 100%; border-radius: 0 100% 0 0;"></a> -->
+                                            <div class="key-actions" style=" box-sizing: border-box; outline: none !important; margin: 0; padding: 0;">
+                            
+                            <ul style="box-sizing: border-box; outline: none !important; padding: 0; position: absolute; margin: 0; right: 0; top: 0; list-style-type: none;">
+                                    <li style=" box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -145px;top: -40px;"> 
+                                        {{ $blindspot := index $blindspots 0 }}
+                                        <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}/#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="list-style: none; box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">N1</a>                          
+                                    </li>
+                                    <li style=" box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -92px;top: -18px;">
+                                        {{ $blindspot := index $blindspots 3 }}
+                                        <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="list-style: none; box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">N2</a>                          
+                                    </li>
+                                    <li style=" box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -47px;top: 16px;">
+                                        {{ $blindspot := index $blindspots 4 }}
+                                        <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="list-style: none; box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">N3</a>                          
+                                    </li>
+                                    <li style=" box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -12px;top: 61px;">
+                                        {{ $blindspot := index $blindspots 5 }}
+                                        <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="list-style: none; box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">N4</a>                          
+                                    </li>
+                                    <li style=" box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: 6px;top: 111px;">
+                                        {{ $blindspot := index $blindspots 9 }}
+                                        <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="list-style: none; box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">N5</a>                          
+                                    </li>
+                                    <li style=" box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -40px;top: -40px;">
+                                        {{ $blindspot := index $blindspots 10 }}
+                                        <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="list-style: none; box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">N6</a>                          
+                                    </li>
+                                    <li style=" box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: 10px;top: -25px;">
+                                        {{ $blindspot := index $blindspots 14 }}
+                                        <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="list-style: none; box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">N7</a>                          
+                                    </li>
+                                    <li style=" box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: 25px;top: 20px;">
+                                        {{ $blindspot := index $blindspots 15 }}
+                                        <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="list-style: none; box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">N8</a>                          
+                                    </li>
+                    </ul>
+                            </div>
+                        </li>
+                                    <li class="start-up" style="box-sizing: border-box; outline: none !important;padding: 0; margin: 0; float: left; height: 185px; width: 185px; border-radius: 0 0 100% 0; position: absolute; right: 0; bottom: -70px;">
+    
+                        <!-- <a href="/startup" class="main-phase" style="box-sizing: border-box; outline: none !important; text-decoration: none; line-height: inherit; color: #003087; display: block; width: 100%; height: 100%; border-radius: 0 0 100% 0;"></a> -->
+                                            <div class="key-actions" style="box-sizing: border-box; outline: none !important; margin: 0; padding: 0;">
+                            <ul style="box-sizing: border-box; outline: none !important; padding: 0; font-size: 1rem; line-height: 1.6; font-family: inherit; list-style: none; position: absolute; margin: 0; right: 0; bottom: 0;">
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -7px; bottom: 81px;">
+                                    {{ $blindspot := index $blindspots 2 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center;line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #002f6c; border-color: #002f6c; position: relative;">PE1</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -32px; bottom: 34px;">
+                                    {{ $blindspot := index $blindspots 11 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}"  style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center;line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #002f6c; border-color: #002f6c; position: relative;">PE2</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -70px; bottom: -7px;">
+                                    {{ $blindspot := index $blindspots 12 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}"  style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center;line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #002f6c; border-color: #002f6c; position: relative;">PE3</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -120px; bottom: -35px;">
+                                    {{ $blindspot := index $blindspots 18 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}"  style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center;line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #002f6c; border-color: #002f6c; position: relative;">PE4</a>                          </li>
+                                                        <!-- <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; left: -145px; bottom: -40px;">
+                                    <a href="/startup/standard10" data-title="Laying the foundations for effective donor engagement and accountability."  style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center;line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #002f6c; border-color: #002f6c; position: relative;">B10</a>                          </li> -->
+                                                    </ul>
+                            </div>
+                        </li>
+                                    <li class="impl" style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; float: left; height: 185px; width: 185px; border-radius: 0 0 0 100%; position: absolute; left: 0; bottom: -70px;">
+    
+                        <!-- <a href="/implementation" class="main-phase" style="box-sizing: border-box; outline: none !important; text-decoration: none;line-height: inherit; color: #003087; display: block; width: 100%; height: 100%; border-radius: 0 0 0 100%;"></a> -->
+                                            <div class="key-actions" style="list-style: none; box-sizing: border-box; outline: none !important; margin: 0; padding: 0;">
+                            <ul style="box-sizing: border-box; outline: none !important;padding: 0; position: absolute; margin: 0; left: 0; bottom: 0; list-style-type: none;">
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; right: -145px; bottom: -40px;">
+                                    {{ $blindspot := index $blindspots 17 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">I5</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; right: -92px; bottom: -18px;">
+                                    {{ $blindspot := index $blindspots 16 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">I4</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; right: -47px; bottom: 16px;">
+                                    {{ $blindspot := index $blindspots 8 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">I3</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; right: -12px; bottom: 61px;">
+                                    {{ $blindspot := index $blindspots 7 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">I2</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; right: 6px; bottom: 111px;">
+                                    {{ $blindspot := index $blindspots 6 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #3d9bb4; border-color: #3d9bb4; position: relative;">I1</a>                          </li>
+                                                    </ul>
+                            </div>
+                        </li>
+                                    <li class="close-out" style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; float: left; height: 185px; width: 185px; border-radius: 0 100% 0 0; position: absolute; left: 0; top: 70px;">
+    
+                        <!-- <a href="/closeout" class="main-phase" style="box-sizing: border-box; outline: none !important; text-decoration: none; line-height: inherit; color: #003087; display: block; width: 100%; height: 100%; border-radius: 100% 0 0 0;"></a> -->
+                                            <div class="key-actions" style="box-sizing: border-box; outline: none !important; margin: 0; padding: 0;">
+                            <ul style="box-sizing: border-box; outline: none !important; padding: 0; position: absolute; margin: 0; left: 0; top: 0; list-style-type: none;">
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; right: -12px; top: 61px;">
+                                    {{ $blindspot := index $blindspots 1 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #002f6c; border-color: #002f6c; position: relative;">T1</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; right: -47px; top: 16px;">
+                                    {{ $blindspot := index $blindspots 13 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}" style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #002f6c; border-color: #002f6c; position: relative;">T2</a>                          </li>
+                                                        <li style="box-sizing: border-box; outline: none !important; padding: 0; margin: 0; position: absolute; right: -95px; top: -20px;">
+                                    {{ $blindspot := index $blindspots 19 }}
+                                    <a href="{{ .Site.BaseURL }}blindspots/{{ $blindspot.blindspot_name_url }}#breadcrumbs" title="{{ $blindspot.blindspot_name }}"  style="box-sizing: border-box; outline: none !important; text-decoration: none; display: block; width: 35px; height: 35px; color: #ffffff; text-align: center; line-height: 32px; font-family: 'gotham-bold'; font-size: 16px; border-radius: 50%; border: 2px solid; background: #002f6c; border-color: #002f6c; position: relative;">T3</a>                          </li>
+                                                    </ul>
+                            </div>
+                        </li>
+                                </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    {{ end }}
+</header>
