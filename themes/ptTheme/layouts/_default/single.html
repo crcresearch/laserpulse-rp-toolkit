@@ -22,7 +22,9 @@
                       {{ $blindspot := index $blindspots $index }}   
                       <a href="{{ .Site.BaseURL }}" >Home Page</a> > {{ $blindspot.blindspot_name }}
                       <h2 itemprop="name headline"><strong>{{ $blindspot.blindspot_name }}</strong></h2>
-                      <span>Partnership Phase: {{ $blindspot.partnership_phase }}</span>
+                      <span>Partnership Phase: {{range $blindspot.partnership_phase }}
+                        <span class="badge badge-{{ lower . }}">{{ . }}</span>
+                      {{end}}</span>
                   {{ end }}
                 </header>
                 <div> 
