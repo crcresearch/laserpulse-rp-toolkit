@@ -10,8 +10,8 @@
 <div class="card-deck my-2">
   <div class="card bg-preparation mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
-      <h5 class="card-title">Preparation</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title"><strong>Preparation</strong></h5>
+      <p class="card-text">Developing a partnership</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">Click to See Blindspots</small>
@@ -19,8 +19,8 @@
   </div>
   <div class="card bg-exploration mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
-      <h5 class="card-title">Exploration</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 class="card-title"><strong>Exploration</strong></h5>
+      <p class="card-text">Building shared vision and values</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">Click to See Blindspots</small>
@@ -28,8 +28,8 @@
   </div>
   <div class="card bg-negotiation  mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
-      <h5 class="card-title">Negotiation</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title"><strong>Negotiation</strong></h5>
+      <p class="card-text">Planning for mechanisms</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">Click to See Blindspots</small>
@@ -37,8 +37,8 @@
   </div>
   <div class="card bg-implementation mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
-      <h5 class="card-title">Implementation</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title"><strong>Implementation</strong></h5>
+      <p class="card-text">Undertaking work</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">Click to See Blindspots</small>
@@ -46,8 +46,8 @@
   </div>
   <div class="card bg-translation mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
-      <h5 class="card-title">Translation</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title"><strong>Translation</strong></h5>
+      <p class="card-text">Short text needed</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">Click to See Blindspots</small>
@@ -56,14 +56,41 @@
 </div>
 </div>
 
+{{ $paginator := (.Paginator 80).Pages}}
 <div class="home">
     <div class="container">
+      {{ range $phase := (slice "Preparation" "Exploration" "Negotiation" "Implementation" "Translation")}}
+      <div class="card bg-{{ lower $phase }} my-2">
+        <div class="card-body">
+          <h5 class="card-title">
+            <strong>Blindspots for {{ $phase }}</strong>
+          </h5>
+        {{ range $paginator }}   
+          {{ $file := .Params.datafile}}
+          {{ $index := .Params.index }}
+          {{ if $file }}
+              {{ $blindspots := getJSON $file }} 
+                {{ $blindspot := index $blindspots $index }}      
+                  {{ range $bsPhase := $blindspot.partnership_phase }}
+
+                    {{ if eq $phase $bsPhase }}
+                    <p>{{ $phase }}: {{ $blindspot.blindspot_name }}</p>
+                  {{ end}}
+              {{ end }}
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{/*
            <!-- quick fix to itterate.  Can generate something better if needed -->
-          {{ range (.Paginator 30).Pages }}   
-            <div class="card">
+        {{ range (.Paginator 30).Pages }}   
+            <div class="card ">
              <a href="{{ .Permalink }}" class="index-anchor">    
                 <div class="panel panel-default">
                   <div class="card-header">
+                    {{ . }}
                   </div>
                   <div class="panel-body">
                     {{ $file := .Params.datafile}}
@@ -120,5 +147,6 @@
           </ul>
         {{ end }}
     </div> 
-</div>
+</div>*/}}
 {{ end }}
+
