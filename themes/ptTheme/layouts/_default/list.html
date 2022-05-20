@@ -5,6 +5,30 @@
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,216,252,1) 100%);
     height: 25px;
   }
+  .arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  
+  border-left: 18px solid rgb(34, 83,136);
+  position: absolute;
+  right: -14px;
+  top: 35%;
+  z-index: 99;
+}
+  .arrow-down {
+  width: 0; 
+  height: 0; 
+  border-top: 18px solid rgb(34, 83,136);
+  border-right: 18px solid transparent;
+  
+  border-left: 18px solid transparent;
+  position: absolute;
+  left: 45%;
+  bottom: -15px;
+  z-index: 99;
+}
 </style>
 <div class="container-fluid">
 <div class="card-deck my-2">
@@ -12,19 +36,60 @@
     <div class="card-body">
       <h5 class="card-title"><strong>Preparation</strong></h5>
       <p class="card-text">Developing a partnership</p>
+      <small class="text-muted"><a data-toggle="collapse" href="#preparationblindspots">Click to See Blindspots</a></small>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Click to See Blindspots</small>
+    <div class="card-footer" id="preparationblindspots">
+
+{{ $paginator := (.Paginator 80).Pages}}
+{{ range $phase := (slice "Preparation" )}}
+  {{ range $paginator }}   
+    {{ $file := .Params.datafile}}
+    {{ $index := .Params.index }}
+    {{ if $file }}
+        {{ $blindspots := getJSON $file }} 
+          {{ $blindspot := index $blindspots $index }}      
+            {{ range $bsPhase := $blindspot.partnership_phase }}
+
+              {{ if eq $phase $bsPhase }}
+              <p>{{ $blindspot.blindspot_name }}</p>
+            {{ end}}
+        {{ end }}
+    {{ end }}
+    {{ end }}
+{{ end }}
     </div>
+    <div class="arrow-right d-none d-sm-block"></div>
+    <div class="arrow-down  d-sm-none"></div>
   </div>
   <div class="card bg-exploration mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
       <h5 class="card-title"><strong>Exploration</strong></h5>
       <p class="card-text">Building shared vision and values</p>
+      <small class="text-muted"><a data-toggle="collapse" href="#explorationblindspots">Click to See Blindspots</a></small>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Click to See Blindspots</small>
+    <div class="card-footer" id="explorationblindspots">
+      {{ $paginator := (.Paginator 80).Pages}}
+      {{ range $phase := (slice "Exploration" )}}
+        {{ range $paginator }}   
+          {{ $file := .Params.datafile}}
+          {{ $index := .Params.index }}
+          {{ if $file }}
+              {{ $blindspots := getJSON $file }} 
+                {{ $blindspot := index $blindspots $index }}      
+                  {{ range $bsPhase := $blindspot.partnership_phase }}
+      
+                    {{ if eq $phase $bsPhase }}
+                    <p>{{ $blindspot.blindspot_name }}</p>
+                  {{ end}}
+              {{ end }}
+          {{ end }}
+          {{ end }}
+      {{ end }}
+
+
     </div>
+    <div class="arrow-right d-none d-sm-block"></div>
+    <div class="arrow-down d-sm-none"></div>
   </div>
   <div class="card bg-negotiation  mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
@@ -34,6 +99,8 @@
     <div class="card-footer">
       <small class="text-muted">Click to See Blindspots</small>
     </div>
+    <div class="arrow-right d-none d-sm-block"></div>
+    <div class="arrow-down  d-sm-none"></div>
   </div>
   <div class="card bg-implementation mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
@@ -43,6 +110,8 @@
     <div class="card-footer">
       <small class="text-muted">Click to See Blindspots</small>
     </div>
+    <div class="arrow-right d-none d-sm-block"></div>
+    <div class="arrow-down  d-sm-none"></div>
   </div>
   <div class="card bg-translation mb-2 mx-1" style="min-width: 12rem;">
     <div class="card-body">
@@ -55,15 +124,15 @@
   </div>
 </div>
 </div>
-
+{{/*
 {{ $paginator := (.Paginator 80).Pages}}
 <div class="home">
-    <div class="container">
+    <div class="container-fluid">
       {{ range $phase := (slice "Preparation" "Exploration" "Negotiation" "Implementation" "Translation")}}
-      <div class="card bg-{{ lower $phase }} my-2">
+      <div id="{{ lower $phase }}blindspots" class="collapse card bg-{{ lower $phase }} my-2">
         <div class="card-body">
           <h5 class="card-title">
-            <strong>Blindspots for {{ $phase }}</strong>
+            <strong>Blindspots - {{ $phase }}</strong>
           </h5>
         {{ range $paginator }}   
           {{ $file := .Params.datafile}}
@@ -74,7 +143,7 @@
                   {{ range $bsPhase := $blindspot.partnership_phase }}
 
                     {{ if eq $phase $bsPhase }}
-                    <p>{{ $phase }}: {{ $blindspot.blindspot_name }}</p>
+                    <p>{{ $blindspot.blindspot_name }}</p>
                   {{ end}}
               {{ end }}
           {{ end }}
@@ -83,7 +152,7 @@
       </div>
       {{ end }}
 
-      {{/*
+      
            <!-- quick fix to itterate.  Can generate something better if needed -->
         {{ range (.Paginator 30).Pages }}   
             <div class="card ">
