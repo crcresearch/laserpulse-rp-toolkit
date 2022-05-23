@@ -14,7 +14,7 @@
   border-left: 18px solid rgb(34, 83,136);
   position: absolute;
   right: -14px;
-  top: 35%;
+  top: 98px;
   z-index: 99;
 }
   .arrow-down {
@@ -29,20 +29,41 @@
   bottom: -15px;
   z-index: 99;
 }
+
+.card-footer {
+  background-color: rgba(0,0,0,0);
+}
+
+.rp-card-body {
+  min-height: 115px;
+  max-height: 115px;
+}
 </style>
-<div class="container-fluid">
-<div class="card-deck my-2">
-  <div class="card bg-preparation mb-2 mx-1" style="min-width: 12rem;">
-    <div class="card-body">
-      <h5 class="card-title"><strong>Preparation</strong></h5>
-      <p class="card-text">Developing a partnership</p>
-      <small class="text-muted"><a data-toggle="collapse" href="#preparationblindspots">Click to See Blindspots</a></small>
-    </div>
-    <div class="card-footer" id="preparationblindspots">
 
 {{ $paginator := (.Paginator 80).Pages}}
-{{ range $phase := (slice "Preparation" )}}
+<div class="container-fluid">
+  <div class="card-deck">
+  <div class="card bg-light my-2 mx-1" style="min-width: 12rem;">
+    <div class="card-body">
+      This is the Research Practicioner toolkit. A helpful introduction message and maybe the old tagline could go here that would explain how to use the tool.
+    </div>
+  </div>
+</div>
+  {{ $phase_list := (slice "Preparation" "Exploration" "Negotiation" "Implementation" "Translation")}}
+  {{ $phases_desc := (slice "Developing a partnership" "Building shared vision and values" "Planning for mechanisms" "Undertaking work" "Text Needed")}}
+<div class="card-deck my-2">
+  {{ range $index, $phase := $phase_list}}
+  <div class="card bg-{{ lower $phase }} mb-2 mx-1" style="min-width: 12rem;">
+    <div class="card-body rp-card-body">
+      <h5 class="card-title"><strong>{{ $phase }}</strong></h5>
+      <em><p class="card-text" >{{ index $phases_desc $index  }}</p></em>
+      <small class="text-muted d-sm-none"><a href="#{{ lower $phase}}blindspots" data-toggle="collapse">Click to Expand Blindspots</a></small>
+    </div>
+    <div class="card-footer d-sm-none collapse" id="{{ lower $phase }}blindspots">
+
+{{ range $phase := (slice $phase )}}
   {{ range $paginator }}   
+    {{ $link := .Permalink}}
     {{ $file := .Params.datafile}}
     {{ $index := .Params.index }}
     {{ if $file }}
@@ -51,171 +72,40 @@
             {{ range $bsPhase := $blindspot.partnership_phase }}
 
               {{ if eq $phase $bsPhase }}
-              <p>{{ $blindspot.blindspot_name }}</p>
+              <p><a href="{{ $link }}">{{ $blindspot.blindspot_name }}</p></a>
             {{ end}}
         {{ end }}
     {{ end }}
     {{ end }}
 {{ end }}
     </div>
-    <div class="arrow-right d-none d-sm-block"></div>
-    <div class="arrow-down  d-sm-none"></div>
-  </div>
-  <div class="card bg-exploration mb-2 mx-1" style="min-width: 12rem;">
-    <div class="card-body">
-      <h5 class="card-title"><strong>Exploration</strong></h5>
-      <p class="card-text">Building shared vision and values</p>
-      <small class="text-muted"><a data-toggle="collapse" href="#explorationblindspots">Click to See Blindspots</a></small>
-    </div>
-    <div class="card-footer" id="explorationblindspots">
-      {{ $paginator := (.Paginator 80).Pages}}
-      {{ range $phase := (slice "Exploration" )}}
-        {{ range $paginator }}   
-          {{ $file := .Params.datafile}}
-          {{ $index := .Params.index }}
-          {{ if $file }}
-              {{ $blindspots := getJSON $file }} 
-                {{ $blindspot := index $blindspots $index }}      
-                  {{ range $bsPhase := $blindspot.partnership_phase }}
-      
-                    {{ if eq $phase $bsPhase }}
-                    <p>{{ $blindspot.blindspot_name }}</p>
-                  {{ end}}
-              {{ end }}
-          {{ end }}
-          {{ end }}
-      {{ end }}
+    <div class="card-footer d-none d-sm-block">
 
+{{ range $phase := (slice $phase )}}
+  {{ range $paginator }}   
+    {{ $link := .Permalink}}
+    {{ $file := .Params.datafile}}
+    {{ $index := .Params.index }}
+    {{ if $file }}
+        {{ $blindspots := getJSON $file }} 
+          {{ $blindspot := index $blindspots $index }}      
+            {{ range $bsPhase := $blindspot.partnership_phase }}
 
-    </div>
-    <div class="arrow-right d-none d-sm-block"></div>
-    <div class="arrow-down d-sm-none"></div>
-  </div>
-  <div class="card bg-negotiation  mb-2 mx-1" style="min-width: 12rem;">
-    <div class="card-body">
-      <h5 class="card-title"><strong>Negotiation</strong></h5>
-      <p class="card-text">Planning for mechanisms</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Click to See Blindspots</small>
-    </div>
-    <div class="arrow-right d-none d-sm-block"></div>
-    <div class="arrow-down  d-sm-none"></div>
-  </div>
-  <div class="card bg-implementation mb-2 mx-1" style="min-width: 12rem;">
-    <div class="card-body">
-      <h5 class="card-title"><strong>Implementation</strong></h5>
-      <p class="card-text">Undertaking work</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Click to See Blindspots</small>
-    </div>
-    <div class="arrow-right d-none d-sm-block"></div>
-    <div class="arrow-down  d-sm-none"></div>
-  </div>
-  <div class="card bg-translation mb-2 mx-1" style="min-width: 12rem;">
-    <div class="card-body">
-      <h5 class="card-title"><strong>Translation</strong></h5>
-      <p class="card-text">Short text needed</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Click to See Blindspots</small>
-    </div>
-  </div>
-</div>
-</div>
-{{/*
-{{ $paginator := (.Paginator 80).Pages}}
-<div class="home">
-    <div class="container-fluid">
-      {{ range $phase := (slice "Preparation" "Exploration" "Negotiation" "Implementation" "Translation")}}
-      <div id="{{ lower $phase }}blindspots" class="collapse card bg-{{ lower $phase }} my-2">
-        <div class="card-body">
-          <h5 class="card-title">
-            <strong>Blindspots - {{ $phase }}</strong>
-          </h5>
-        {{ range $paginator }}   
-          {{ $file := .Params.datafile}}
-          {{ $index := .Params.index }}
-          {{ if $file }}
-              {{ $blindspots := getJSON $file }} 
-                {{ $blindspot := index $blindspots $index }}      
-                  {{ range $bsPhase := $blindspot.partnership_phase }}
-
-                    {{ if eq $phase $bsPhase }}
-                    <p>{{ $blindspot.blindspot_name }}</p>
-                  {{ end}}
-              {{ end }}
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-
-      
-           <!-- quick fix to itterate.  Can generate something better if needed -->
-        {{ range (.Paginator 30).Pages }}   
-            <div class="card ">
-             <a href="{{ .Permalink }}" class="index-anchor">    
-                <div class="panel panel-default">
-                  <div class="card-header">
-                    {{ . }}
-                  </div>
-                  <div class="panel-body">
-                    {{ $file := .Params.datafile}}
-                    {{ $index := .Params.index }}
-                    {{ if $file }}
-                        {{ $blindspots := getJSON $file }} 
-                        {{ $blindspot := index $blindspots $index }}          
-                        <h3 class="panel-title pull-left">{{ $blindspot.blindspot_name }}</h3>
-                        <br />
-                        <span class="post-meta pull-left"><small>{{ range $blindspot.partnership_phase }}
-                          <span class="badge badge-{{ lower . }}">{{ . }}</span> <!-- The . represents an element in $array -->
-                      {{ end }}</small></span>
-                    {{ end }}
-                  </div>
-                  
-                  <div class="panel-body">
-                    <small>
-                      {{ .Summary | plainify | truncate 180 }}
-                    </small>
-                  </div>
-                </div>
-                </a>
-            </div>
-          {{ end }}
-    </div> 
-    
-<div class="row">
-    <div class="col-md-4">  </div>
-    <div class="col-md-4">
-        {{ if gt .Paginator.TotalPages 1 }}
-        <ul class="pagination">
-          {{ if .Paginator.HasPrev }}
-            <li><a href="{{ .Paginator.Prev.URL }}">&laquo; Prev</a></li>
-          {{ else }}
-            <li><span>&laquo; Prev</span></li>
-          {{ end }}
-
-          {{ $scratch := newScratch }}
-          {{ $scratch.Set "current" .Paginator.PageNumber }} 
-
-          {{ range .Paginator.Pagers }}
-            {{ if eq .PageNumber ($scratch.Get "current") }}
-              <li class="active"><span><em>{{ .PageNumber }}</em></span></li>
-            {{ else }}
-            <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
-            {{ end }}
-          {{ end }}
-
-          {{ if .Paginator.HasNext }}
-            <li><a href="{{ .Paginator.Next.URL }}">Next &raquo;</a></li>
-          {{ else }}
-            <li><span >Next &raquo;</span></li>
-          {{ end }}
-          </ul>
+              {{ if eq $phase $bsPhase }}
+              <p><a href="{{ $link }}">{{ $blindspot.blindspot_name }}</p></a>
+            {{ end}}
         {{ end }}
-    </div> 
-</div>*/}}
+    {{ end }}
+    {{ end }}
+{{ end }}
+    </div>
+    {{ if ne (add $index 1) (len $phase_list) }}
+    <div class="arrow-right d-none d-sm-block"></div>
+    <div class="arrow-down  d-sm-none"></div>
+    {{ end }}
+  </div>
+
+{{ end }}
+  
 {{ end }}
 
