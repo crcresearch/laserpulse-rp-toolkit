@@ -10,7 +10,5 @@
 <link rel="stylesheet" href="{{ $main.RelPermalink }}">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-{{ range .Site.Params.custom_css -}}
-    <link rel="stylesheet" href="/{{ . }}">
-{{- end }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css">
 </head>

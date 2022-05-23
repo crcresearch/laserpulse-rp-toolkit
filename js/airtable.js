@@ -35,6 +35,7 @@ try {
 
   // Add initial records to results variable.
   for (let i = 0; i < records.length; i++){
+    // console.log("Processing a record")
     // Transforming blindspot name to have no spaces or '/' in the name and replacing those with underscores
     // This will be used for the url in Hugo when using list.html and all the .md files at once for the circle image 
     blindspot_name_no_space = records[i].fields['Blindspot'].replace(/ /g, "_");
@@ -46,8 +47,12 @@ try {
       "academic_perspective" : records[i].fields['Academic Perspective'],
       "practitioner_perspective" : records[i].fields['Practitioner Perspective'],
       "convergence_opportunities" : records[i].fields['Convergence Opportunities'],
+      "DGQ": {
+        "Researcher_Question": [],
+        "Practitioner_Question": [],
+        "Both": [],
+      },
       "DGQ_ID": [],
-      "DGQ": [],
       "toolkit_resources_ID": [],
       "toolkit_resources" : []
     };
@@ -72,11 +77,13 @@ try {
   // Augment result records with additional data for Discussion Guide Questions.
   for (const result of results){
     for (const foreignKey of result.DGQ_ID) {
-      const newInfo = await base('Discussion Guide Questions').find(foreignKey)
-      result.DGQ.push({
-        "question" : newInfo.fields['Question'],
-        "perspective" : newInfo.fields['Perspective']
-      });
+      let newInfo = await base('Discussion Guide Questions').find(foreignKey)
+      if(newInfo.fields['Perspective'] != undefined){
+        result.DGQ[newInfo.fields['Perspective'].replace(' ', '_')].push({
+          "question" : newInfo.fields['Question'],
+          "perspective" : newInfo.fields['Perspective']
+        });
+      }
     };
   };
 

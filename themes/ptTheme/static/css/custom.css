@@ -1,1 +1,59 @@
-/*Add your custom css here. This will override any existinc thems css*/
+:root {
+    --preparation: #dbb5be;
+    --exploration: #E6DCC4;
+    --negotiation: #90cebe;
+    --implementation: #8ab7c6;
+    --translation: #619db1;
+}
+.bg-preparation {
+    background-color: var(--preparation)!important;
+}
+
+
+.bg-exploration {
+    background-color: var(--exploration)!important;
+}
+
+
+.bg-negotiation {
+    background-color: var(--negotiation)!important;
+}
+
+
+.bg-implementation {
+    background-color: var(--implementation)!important;
+}
+
+
+.bg-translation {
+    background-color: var(--translation)!important;
+}
+
+.badge-preparation {
+    background-color: var(--preparation);
+    color: black;
+}
+
+
+.badge-exploration {
+    background-color: var(--exploration);
+    color: black;
+}
+
+
+.badge-negotiation {
+    background-color: var(--negotiation);
+    color: black;
+}
+
+
+.badge-implementation {
+    background-color: var(--implementation);
+    color: black;
+}
+
+
+.badge-translation {
+    background-color: var(--translation);
+    color: black;
+}

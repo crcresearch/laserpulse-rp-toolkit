@@ -82,5 +82,6 @@ Terminology_and_Language.md
 Usefulness_of_Research_Outputs.md
 
 .nenv
-
-
+nenv
+.env
+.hugo_build.lock

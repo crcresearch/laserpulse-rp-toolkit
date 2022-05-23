@@ -10,121 +10,136 @@
 <div class="row">
 <div class="col-auto">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-          <header class="post-header" id="breadcrumbs">
-            {{ $file := .Params.datafile}}
-            {{ $index := .Params.index }}
-            {{ if $file }}
-                {{ $blindspots := getJSON $file }} 
-                {{ $blindspot := index $blindspots $index }}   
-                <a href="{{ .Site.BaseURL }}" >Home Page</a> > {{ $blindspot.blindspot_name }}
-                <h1 class="post-title" itemprop="name headline">{{ $blindspot.blindspot_name }}</h1>
-                <span>Partnership Phase: {{ $blindspot.partnership_phase }}</span>
-            {{ end }}
-          </header>
-
-          <div style="width: 100%;"> 
-            {{ .Content }}
-            {{ $file := .Params.datafile}}
-            {{ $index := .Params.index }}
-            {{ if $file }}
-                {{ $blindspots := getJSON $file }} 
-                {{ $blindspot := index $blindspots $index }}  
-
-                <br /><span style="font-size: large;"><br /><b><i>Blindspot</i></b></span>
-                <div class="table-reponsive">
-                  <table class="table" style="text-align: center; margin-left: auto; margin-right: auto; table-layout: fixed;">
-                    <thead>
-                      <tr>
-                        <th style="background: lightgrey;">Researcher perspective</th>
-                        <th style="background: rgb(242, 242, 242);">Practitioner perspective</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td style="background: white;">{{ $blindspot.academic_perspective }}</td>
-                        <td style="background: white;">{{ $blindspot.practitioner_perspective }}</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>  
-
-                <div style="margin: auto;">
-                  <table style="width: 100%;">
-                    <thead>
-                      <tr>
-                        <th text-align="center" style="background: rgb(214, 234, 248);">Convergence Point</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td style="background: white;">{{ $blindspot.convergence_opportunities }}</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <br />
-
-                <div style="margin: auto;">
-                  <span style="font-size: large;" ><br /><b><i>Discussion Guide</i></b></span>
-                  <table style="width: 100%;">
-                    <thead>
-                      <tr>
-                        <th style="background: lightgrey;">Questions Researchers Can Ask</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {{ range $blindspot.DGQ }}
-                        <tr>
-                          {{ if eq .perspective "Researcher Question" }}
-                            <td style="background: white;">{{ index .question  }}</td>
-                          {{ end }}
-                        </tr>
-                      {{ end }}
-                    </tbody>
-                  </table>
-                  <table style="width: 100%;">
-                    <thead>
-                      <tr>
-                        <th style="background: rgb(242, 242, 242);">Questions Practitioners Can Ask</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {{ range $blindspot.DGQ }}
-                        <tr>
-                          {{ if eq .perspective "Practitioner Question" }}
-                            <td style="background: white;">{{ .question  }}</td>
-                          {{ end }}
-                        </tr>
-                      {{ end }}
-                    </tbody>
-                  </table>
-                  <table style="width: 100%;">
-                    <thead>
-                      <tr>
-                        <th style="background: rgb(214, 234, 248);">Questions Both Can Ask</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {{ range $blindspot.DGQ }}
-                        <tr>
-                          {{ if eq .perspective "Both" }}
-                            <td style="background: white;">{{ .question  }}</td>
-                          {{ end }}
-                        </tr>
-                      {{ end }}
-                    </tbody>
-                  </table>
-                </div>
-
-                <br />
-                <b><i>Tools</i></b><br />
-                {{ range $blindspot.toolkit_resources }}
-                  {{ if .tool_item }}
-                    - {{ .tool_item }} <a href=" {{ .url }}" target="_blank"> {{ .author_institution }} {{ .year }}, {{ .blindspot_quote }}</a> <br />
+      <div class="container-fluid">
+            
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+                <header id="breadcrumbs">
+                  {{ $file := .Params.datafile}}
+                  {{ $index := .Params.index }}
+                  {{ if $file }}
+                      {{ $blindspots := getJSON $file }} 
+                      {{ $blindspot := index $blindspots $index }}   
+                      <a href="{{ .Site.BaseURL }}" >Home Page</a> > {{ $blindspot.blindspot_name }}
+                      <h2 itemprop="name headline"><strong>{{ $blindspot.blindspot_name }}</strong></h2>
+                      <span>Partnership Phase: {{range $blindspot.partnership_phase }}
+                        <span class="badge badge-{{ lower . }}">{{ . }}</span>
+                      {{end}}</span>
                   {{ end }}
-                {{ end }}
-            {{ end }}
+                </header>
+                <div> 
+                  {{ .Content }}
+                  {{ $file := .Params.datafile}}
+                  {{ $index := .Params.index }}
+                  {{ if $file }}
+                      {{ $blindspots := getJSON $file }} 
+                      {{ $blindspot := index $blindspots $index }}  
+      
+                      <br /><span style="font-size: large;"><br /><b><i>Blindspot</i></b></span>
+                      <div class="table-reponsive">
+                        <table class="table" style="text-align: center; margin-left: auto; margin-right: auto; table-layout: fixed;">
+                          <thead>
+                            <tr>
+                              <th style="background: lightgrey;">Researcher perspective</th>
+                              <th style="background: rgb(242, 242, 242);">Practitioner perspective</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="background: white;">{{ $blindspot.academic_perspective }}</td>
+                              <td style="background: white;">{{ $blindspot.practitioner_perspective }}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>  
+      
+                      <div style="margin: auto;">
+                        <table style="width: 100%;">
+                          <thead>
+                            <tr>
+                              <th text-align="center" style="background: rgb(214, 234, 248);">Convergence Point</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="background: white;">{{ $blindspot.convergence_opportunities }}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <br />
+      
+                      <div style="margin: auto;">
+                        <span style="font-size: large;" ><br /><b><i>Discussion Guide</i></b></span>
+                        {{if gt (len $blindspot.DGQ.Researcher_Question) 0}}
+                        <table style="width: 100%;">
+                          <thead>
+                            <tr>
+                              <th style="background: lightgrey;">Questions Researchers Can Ask</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {{ range $blindspot.DGQ.Researcher_Question }}
+                              <tr>
+                                {{ if eq .perspective "Researcher Question" }}
+                                  <td style="background: white;">{{ index .question  }}</td>
+                                {{ end }}
+                              </tr>
+                            {{ end }}
+                          </tbody>
+                        </table>
+                        {{ end }}
+
+                        {{if gt (len $blindspot.DGQ.Practitioner_Question) 0}}
+                        <table style="width: 100%;">
+                          <thead>
+                            <tr>
+                              <th style="background: rgb(242, 242, 242);">Questions Practitioners Can Ask</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {{ range $blindspot.DGQ.Practitioner_Question }}
+                              <tr>
+                                {{ if eq .perspective "Practitioner Question" }}
+                                  <td style="background: white;">{{ .question  }}</td>
+                                {{ end }}
+                              </tr>
+                            {{ end }}
+                          </tbody>
+                        </table>
+                        {{ end }}
+
+                        {{if gt (len $blindspot.DGQ.Both) 0}}
+                        <table style="width: 100%;">
+                          <thead>
+                            <tr>
+                              <th style="background: rgb(214, 234, 248);">Questions Both Can Ask</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {{ range $blindspot.DGQ.Both }}
+                              <tr>
+                                {{ if eq .perspective "Both" }}
+                                  <td style="background: white;">{{ .question  }}</td>
+                                {{ end }}
+                              </tr>
+                            {{ end }}
+                          </tbody>
+                        </table>
+                        {{ end }}
+                      </div>
+      
+                      <br />
+                      <b><i>Tools</i></b><br />
+                      {{ range $blindspot.toolkit_resources }}
+                        {{ if .tool_item }}
+                          - {{ .tool_item }} <a href=" {{ .url }}" target="_blank"> {{ .author_institution }} {{ .year }}, {{ .blindspot_quote }}</a> <br />
+                        {{ end }}
+                      {{ end }}
+                  {{ end }}
+                </div>
+
+              </div>
           </div>
 
     </article>
