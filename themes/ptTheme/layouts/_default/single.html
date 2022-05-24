@@ -30,44 +30,56 @@
   <div class="row">
     <div class="col-sm-7 col-lg-8">
       <div class="mb-5">
-      <h4>Perspectives</h4>
-      <p><span class="text-uppercase font-weight-bolder">Researcher: </span><span>{{$blindspot.academic_perspective}}</span>
-        <p><span class="text-uppercase font-weight-bolder">Practitioner: </span><span>{{$blindspot.practitioner_perspective}}</span>
+      <h4><u>Perspectives</u></h4>
+      <p style="background-color: rgba(255, 0, 0, 0.1);" ><span class="text-uppercase font-weight-bolder">Researcher:</span> <span>{{$blindspot.academic_perspective}}</span>
+        <p style="background-color: rgba(0, 0, 255, 0.1);" ><span class="text-uppercase font-weight-bolder">Practitioner:</span> <span>{{$blindspot.practitioner_perspective}}</span>
 
-        <p><span class="text-uppercase font-weight-bolder">Convergence: </span><span>{{$blindspot.convergence_opportunities}}</span>
+        <p style="background-color: rgba(122, 0, 122, 0.1);"><span  class="text-uppercase font-weight-bolder">Convergence:</span> <span>{{$blindspot.convergence_opportunities}}</span>
         </div>
-      <h4>Discussion Guide</h4>
+      <h4><u>Discussion Guide</u></h4>
       {{if gt (len $blindspot.DGQ.Researcher_Question) 0}}
-      <p><span class="text-uppercase font-weight-bolder">Questions Researchers Can Ask:</span></p>
+      <div class="mb-3" style="background-color: rgba(255, 0, 0, 0.1);" >
+      <p class="mb-1"><span class="text-uppercase font-weight-bolder" >Questions Researchers Can Ask:</span></p>
+      <div style="padding-left: 10px;">
       {{ range $blindspot.DGQ.Researcher_Question }}
-        <p>
+        <p class="mb-1">
           {{ if eq .perspective "Researcher Question" }}
           {{ index .question  }}
           {{ end }}
         </p>
       {{ end }}
+      </div>
+      </div>
       {{ end }}
       
       {{if gt (len $blindspot.DGQ.Practitioner_Question) 0}}
-      <p><span class="text-uppercase font-weight-bolder">Questions Practitioners Can Ask:</span></p>
+      <div class="mb-3" style="background-color: rgba(0, 0, 255, 0.1);" >
+      <p class="mb-1"><span class="text-uppercase font-weight-bolder" >Questions Practitioners Can Ask:</span></p>
+      <div style="padding-left: 10px;">
       {{ range $blindspot.DGQ.Practitioner_Question }}
-        <p>
+        <p class="mb-1">
           {{ if eq .perspective "Practitioner Question" }}
           {{ index .question  }}
           {{ end }}
         </p>
       {{ end }}
+    </div>
+      </div>
       {{ end }}
 
       {{if gt (len $blindspot.DGQ.Both) 0}}
-      <p><span class="text-uppercase font-weight-bolder">Questions Both Can Ask:</span></p>
+      <div class="mb-3" style="background-color: rgba(122, 0, 122, 0.1);" >
+      <p class="mb-1"><span class="text-uppercase font-weight-bolder" >Questions Both Can Ask:</span></p>
+      <div style="padding-left: 10px;">
       {{ range $blindspot.DGQ.Both }}
-        <p>
+        <p class="mb-1">
           {{ if eq .perspective "Both" }}
           {{ index .question  }}
           {{ end }}
         </p>
       {{ end }}
+    </div>
+      </div>
       {{ end }}
       
     </div>
@@ -75,7 +87,7 @@
       <ul class="list-group mt-3">
         <li class="list-group-item p-0 border-left-0 border-right-0">
           <h6 class="mb-0 px-3 py-2 wash-400 bg-usaid-blue text-white narrow-font text-uppercase font-weight-bolder">Tools</h6> 
-          <ul class="list-unstyled px-3 py-2 list-spaced wash-100">
+          <ul class="list-unstyled px-3 py-2 list-spaced">
             {{ range $blindspot.toolkit_resources }}
             {{ if .tool_item }}
               <li> {{ .tool_item }} - <a href=" {{ .url }}" target="_blank">{{ .author_institution }} {{ .year }}{{ if .blindspot_quote}}, {{ .blindspot_quote }} {{end}}</a></li>

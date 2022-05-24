@@ -64,7 +64,8 @@
 body {
 }
 
-.container-fluid {
+
+.container-xxl {
   max-width: 1600px;
   padding: 0 25px;
 }
