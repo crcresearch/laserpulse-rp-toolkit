@@ -17,7 +17,7 @@
 
 <div class="bg-vb-lt-blue">
 <div id="top-document-detail" class="container position-relative text-dark">
-<h5 class="mb-1 text-uppercase t3ext-dark font-weight-bolder">Blindspot detail</h5>
+<h5 class="mb-1 text-uppercase text-dark">Blindspot detail</h5>
 <h1 id="doc-title" class="mb-1 text-white">
   {{ $blindspot.blindspot_name }}
 </h1>
@@ -45,11 +45,11 @@
         </div>
       <h3 class="mb-3">Discussion Guide</h3>
       {{if gt (len $blindspot.DGQ.Researcher_Question) 0}}
-      <div class="mb-3 researcher-border" >
+      <div class="mb-3 researcher-border">
       <p class="mb-1"><span class="text-uppercase font-weight-bolder" >Questions Researchers Can Ask:</span></p>
       <div style="padding-left: 10px;">
       {{ range $blindspot.DGQ.Researcher_Question }}
-        <p class="mb-1">
+        <p class="mb-3" style="line-height:100%">
           {{ if eq .perspective "Researcher Question" }}
           {{ index .question  }}
           {{ end }}
@@ -64,7 +64,7 @@
       <p class="mb-1"><span class="text-uppercase font-weight-bolder" >Questions Practitioners Can Ask:</span></p>
       <div style="padding-left: 10px;">
       {{ range $blindspot.DGQ.Practitioner_Question }}
-        <p class="mb-1">
+        <p class="mb-3" style="line-height:100%">
           {{ if eq .perspective "Practitioner Question" }}
           {{ index .question  }}
           {{ end }}
@@ -79,7 +79,7 @@
       <p class="mb-1"><span class="text-uppercase font-weight-bolder" >Questions Both Can Ask:</span></p>
       <div style="padding-left: 10px;">
       {{ range $blindspot.DGQ.Both }}
-        <p class="mb-1">
+        <p class="mb-3" style="line-height:100%">
           {{ if eq .perspective "Both" }}
           {{ index .question  }}
           {{ end }}

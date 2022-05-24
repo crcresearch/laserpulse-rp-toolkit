@@ -33,9 +33,12 @@ try {
     })
     .all();
 
+  records.sort(function(first, second) {
+    return first.fields['Blindspot'] - second.fields['Blindspot']
+  })
+
   // Add initial records to results variable.
   for (let i = 0; i < records.length; i++){
-    // console.log("Processing a record")
     // Transforming blindspot name to have no spaces or '/' in the name and replacing those with underscores
     // This will be used for the url in Hugo when using list.html and all the .md files at once for the circle image 
     blindspot_name_no_space = records[i].fields['Blindspot'].replace(/ /g, "_");

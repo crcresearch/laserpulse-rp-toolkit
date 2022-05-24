@@ -1,7 +1,7 @@
 ---
-title: "Perceived Experience"
+title: "Scope and Rigor Acceptability"
 draft: false
 
 datafile: "/data/blindspots.json"
-index: 0
+index: 15
 ---
