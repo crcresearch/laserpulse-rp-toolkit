@@ -1,4 +1,32 @@
-<h1>{{ .Params.name }}</h1>
+{{ define "main" }}
 
-<h2>FAQ page placeholder</h2>
-{{ .Content }}
+<style>
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+</style>
+
+<div class="bg-vb-lt-blue">
+<div id="top-document-detail" class="container position-relative text-dark">
+<h5 class="mb-1 text-uppercase text-dark">Information</h5>
+<h1 id="doc-title" class="mb-1 text-white">
+  {{ .Params.name }}
+</h1>
+</div>
+</div>
+
+<div class="container mt-5 mb-4">
+  <div class="row">
+    <div class="col-sm-7 col-lg-8">
+      <div class="mb-5">
+      <h3 class="mb-3">FAQs</h3>
+      <p>{{ .Content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}
+

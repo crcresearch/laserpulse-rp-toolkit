@@ -1,5 +1,5 @@
 ---
-name: FAQ Page
+name: Frequently Asked Questions
 ---
 
 Content coming

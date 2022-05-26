@@ -1,5 +1,5 @@
 ---
-name: About Page
+name: About The Toolkit
 ---
 
 Content coming
