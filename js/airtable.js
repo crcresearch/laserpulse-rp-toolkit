@@ -10,6 +10,15 @@ Possible todo
 
 const airtable = require('airtable');
 const csv = require('csvtojson');
+const fs = require('fs');
+
+const blindspot_markdown_template = `---
+title: "{{blindspot_title}}"
+draft: false
+
+datafile: "/data/blindspots.json"
+index: {{blindspot_index}}
+---`;
 
 /**
  * Fetches data from Airtable, serializes it to JSON and outputs it to stdout.
@@ -75,6 +84,12 @@ try {
       // console.log("DGQ_ID error => ");
       // console.error(err);
     }
+    // Now write the new content file:
+    md_content = blindspot_markdown_template.replace(
+      "{{blindspot_title}}", records[i].fields['Blindspot']
+      ).replace("{{blindspot_index}}", i)
+    
+    fs.writeFileSync('content/challenges/'+blindspot_name_url+'.md', md_content);
   };
 
   // Augment result records with additional data for Discussion Guide Questions.

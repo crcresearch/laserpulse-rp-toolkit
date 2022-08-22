@@ -39,8 +39,8 @@ let { render } = require("mustache");
 
         let template = fs.readFileSync("./static/images/template.md").toString();
 
-        fs.rmSync('./content/blindspots/', {recursive: true});
-        fs.mkdir('./content/blindspots/',function(err) {
+        fs.rmSync('./content/challenges/', {recursive: true});
+        fs.mkdir('./content/challenges/',function(err) {
           if (err) {
              return console.error(err);
           }
@@ -49,11 +49,11 @@ let { render } = require("mustache");
 
         // let output = render(template, results[5]);
         // console.log('output => ', output);
-        // fs.writeFileSync('./content/blindspots/test3.md', output);
+        // fs.writeFileSync('./content/challenges/test3.md', output);
 
         for (const result of results){
             let output = render(template, result);
-            fs.writeFileSync(`./content/blindspots/${result.blindspot_name}.md`, output);
+            fs.writeFileSync(`./content/challenges/${result.blindspot_name}.md`, output);
         };
 
     } catch (err) {

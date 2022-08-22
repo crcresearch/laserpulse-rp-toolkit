@@ -1,5 +1,5 @@
 ---
-title: "Fiscal&#x2F;Academic Timelines"
+title: "Fiscal/Academic Timelines"
 draft: false
 
 datafile: "/data/blindspots.json"
