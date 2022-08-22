@@ -80,7 +80,7 @@
             {{ range $bsPhase := $blindspot.partnership_phase }}
 
               {{ if eq $phase $bsPhase }}
-              <p><a href="{{ $link }}">{{ $blindspot.blindspot_name }}</p></a>
+              <p><a href="{{ $link }}"><i class="fa-solid fa-user"></i> {{ $blindspot.blindspot_name }}</p></a>
             {{ end}}
         {{ end }}
     {{ end }}
@@ -100,7 +100,7 @@
             {{ range $bsPhase := $blindspot.partnership_phase }}
 
               {{ if eq $phase $bsPhase }}
-              <p><a href="{{ $link }}">{{ $blindspot.blindspot_name }}</p></a>
+              <p><a href="{{ $link }}"><i class="fa-solid fa-{{$blindspot.icon}}"></i> {{ $blindspot.blindspot_name }}</p></a>
             {{ end}}
         {{ end }}
     {{ end }}

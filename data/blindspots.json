@@ -2,13 +2,14 @@
   {
     "blindspot_name": "Bias and Objectivity",
     "blindspot_name_url": "bias_and_objectivity",
+    "icon": "scale-unbalanced",
     "partnership_phase": [
       "Negotiation",
       "Preparation"
     ],
-    "academic_perspective": "I am an objective researcher and can not be influenced by practitioners in  data collection, analysis, and write up of findings.",
-    "practitioner_perspective": "I know the reality of the ground and the researcher does not understand. As the funder, I want the research to reflect the reality I know.",
-    "convergence_opportunities": "All research is infomred by research and practitioner and can be subjective. Practitioners or researchers can bias research. Both practitioners and researchers need to reflect on their influence in the project and any biasses they may have. Neither researchers or practitioners should assume what the findings of a research project will be. ",
+    "academic_perspective": "I am an objective researcher and can not be influenced by practitioners in data collection, analysis, and write up of findings.",
+    "practitioner_perspective": "I know the reality of the ground and the researcher does not understand this. As the funder or implementer, I want the research to reflect the reality I know to be true.",
+    "convergence_opportunities": "Practitioners or researchers can unintentionally bias research based on their own preconceptions and expectations. Both practitioners and researchers need to reflect on their influence in the project and any biases they may have. While it is appropriate to have a research hypothesis, researchers and practitioners should not expect specific findings and should seek to be as objective as possible. ",
     "DGQ": {
       "Researcher_Question": [
         {
@@ -156,6 +157,7 @@
   {
     "blindspot_name": "Collaborative Review",
     "blindspot_name_url": "collaborative_review",
+    "icon": "magnifying-glass",
     "partnership_phase": [
       "Translation"
     ],
@@ -191,6 +193,7 @@
   {
     "blindspot_name": "Competing Demands",
     "blindspot_name_url": "competing_demands",
+    "icon": "people-pulling",
     "partnership_phase": [
       "Exploration"
     ],
@@ -353,6 +356,7 @@
   {
     "blindspot_name": "Contracting ",
     "blindspot_name_url": "contracting_",
+    "icon": "file-signature",
     "partnership_phase": [
       "Negotiation"
     ],
@@ -438,6 +442,7 @@
   {
     "blindspot_name": "Definitions of Research",
     "blindspot_name_url": "definitions_of_research",
+    "icon": "microscope",
     "partnership_phase": [
       "Negotiation",
       "Exploration"
@@ -587,6 +592,7 @@
   {
     "blindspot_name": "Donor Mandate",
     "blindspot_name_url": "donor_mandate",
+    "icon": "hand-holding-dollar",
     "partnership_phase": [
       "Negotiation"
     ],
@@ -803,6 +809,7 @@
   {
     "blindspot_name": "Ethics",
     "blindspot_name_url": "ethics",
+    "icon": "people-arrows",
     "partnership_phase": [
       "Implementation",
       "Exploration"
@@ -913,6 +920,7 @@
   {
     "blindspot_name": "Evidence",
     "blindspot_name_url": "evidence",
+    "icon": "chart-line",
     "partnership_phase": [
       "Implementation",
       "Exploration"
@@ -1089,6 +1097,7 @@
   {
     "blindspot_name": "Fiscal/Academic Timelines",
     "blindspot_name_url": "fiscal_academic_timelines",
+    "icon": "timeline",
     "partnership_phase": [
       "Implementation",
       "Exploration"
@@ -1221,6 +1230,7 @@
   {
     "blindspot_name": "Indirect Cost Structures",
     "blindspot_name_url": "indirect_cost_structures",
+    "icon": "circle-dollar-to-slot",
     "partnership_phase": [
       "Negotiation"
     ],
@@ -1258,6 +1268,7 @@
   {
     "blindspot_name": "Intellectual Property",
     "blindspot_name_url": "intellectual_property",
+    "icon": "copyright",
     "partnership_phase": [
       "Negotiation"
     ],
@@ -1358,6 +1369,7 @@
   {
     "blindspot_name": "International Experience",
     "blindspot_name_url": "international_experience",
+    "icon": "earth-africa",
     "partnership_phase": [
       "Preparation"
     ],
@@ -1478,6 +1490,7 @@
   {
     "blindspot_name": "Perceived Expertise",
     "blindspot_name_url": "perceived_expertise",
+    "icon": "brain",
     "partnership_phase": [
       "Exploration",
       "Preparation"
@@ -1598,6 +1611,7 @@
   {
     "blindspot_name": "Publish or Perish",
     "blindspot_name_url": "publish_or_perish",
+    "icon": "book-open",
     "partnership_phase": [
       "Translation",
       "Exploration"
@@ -1776,6 +1790,7 @@
   {
     "blindspot_name": "Roles and Responsibilities",
     "blindspot_name_url": "roles_and_responsibilities",
+    "icon": "sitemap",
     "partnership_phase": [
       "Negotiation"
     ],
@@ -1941,6 +1956,7 @@
   {
     "blindspot_name": "Scope and Rigor Acceptability",
     "blindspot_name_url": "scope_and_rigor_acceptability",
+    "icon": "vial-circle-check",
     "partnership_phase": [
       "Negotiation"
     ],
@@ -2145,6 +2161,7 @@
   {
     "blindspot_name": "Stakeholder Involvement",
     "blindspot_name_url": "stakeholder_involvement",
+    "icon": "people-roof",
     "partnership_phase": [
       "Implementation"
     ],
@@ -2323,6 +2340,7 @@
   {
     "blindspot_name": "Student Involvement",
     "blindspot_name_url": "student_involvement",
+    "icon": "user-graduate",
     "partnership_phase": [
       "Implementation",
       "Preparation"
@@ -2442,6 +2460,7 @@
   {
     "blindspot_name": "Terminology and Language",
     "blindspot_name_url": "terminology_and_language",
+    "icon": "language",
     "partnership_phase": [
       "Preparation"
     ],
@@ -2609,6 +2628,7 @@
   {
     "blindspot_name": "Usefulness of Research Outputs",
     "blindspot_name_url": "usefulness_of_research_outputs",
+    "icon": "person-walking-arrow-loop-left",
     "partnership_phase": [
       "Translation"
     ],

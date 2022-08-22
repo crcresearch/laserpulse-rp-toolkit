@@ -55,6 +55,7 @@ try {
     results[i] = {
       "blindspot_name" : records[i].fields['Blindspot'],
       "blindspot_name_url": blindspot_name_url,
+      "icon": records[i].fields['Icon Name'].replace("https://fontawesome.com/icons/","").replace("?s=solid",""),
       "partnership_phase": records[i].fields['Partnership Phase'],
       "academic_perspective" : records[i].fields['Academic Perspective'],
       "practitioner_perspective" : records[i].fields['Practitioner Perspective'],
