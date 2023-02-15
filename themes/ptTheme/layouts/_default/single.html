@@ -22,7 +22,7 @@
   {{ $blindspot.blindspot_name }}
 </h1>
 <p class="my-0"><span class="text-uppercase">
-  {{ $phase_list := (slice "Preparation" "Exploration" "Negotiation" "Implementation" "Translation")}}
+  {{ $phase_list := (slice "Preparation" "Exploration" "Negotiation" "Implementation")}}
   {{ range $phase_list }}
         {{ if in $blindspot.partnership_phase . }}
           <span class="badge badge-{{ lower . }}">{{ . }}</span>
