@@ -1,32 +1,101 @@
 {{ define "main" }}
 
 <style>
-  table, th, td {
+  table,
+  th,
+  td {
     border: 1px solid black;
     text-align: center;
   }
-
 </style>
 
 <div class="bg-vb-lt-blue">
-<div id="top-document-detail" class="container position-relative text-dark">
-<h5 class="mb-1 text-uppercase text-dark">Information</h5>
-<h1 id="doc-title" class="mb-1 text-white">
-  {{ .Params.name }}
-</h1>
-</div>
+  <div id="top-document-detail" class="container position-relative text-dark">
+    <h5 class="mb-1 text-uppercase text-dark">Information</h5>
+    <h1 id="doc-title" class="mb-1 text-white">{{ .Params.name }}</h1>
+  </div>
 </div>
 
 <div class="container mt-5 mb-4">
   <div class="row">
-    <div class="col-sm-7 col-lg-8">
+    <div class="col-sm-10">
       <div class="mb-5">
-      <h3 class="mb-3">FAQs</h3>
-      <p>{{ .Content }}</p>
+        <h3 class="mb-3">FAQs</h3>
+        <p></p>
+        <p class="text-uppercase mb-1">
+          <strong>Who are the intended users of this toolkit?</strong>
+        </p>
+        <p>
+          This toolkit is designed to help global development practitioners and
+          researchers form more fruitful collaborations with one another. For
+          the purposes of this toolkit, practitioners are defined as
+          “individuals or institutions that will directly utilize the evidence
+          from the research project in practice, such as a donor, government
+          agency, nongovernmental organization, civil society, or the private
+          sector.” A researcher is defined as “scholars with advanced degrees
+          who work at universities and conduct primary research.” Practitioners
+          also generate evidence, but for the purposes of this toolkit, we
+          characterize researchers as researchers in academic institutions.
+        </p>
+        <p class="text-uppercase mb-1 mt-4"><strong>How Do I Use the Toolkit?</strong></p>
+        <p>
+          Challenge: This toolkit is organized by potential challenges or areas
+          of friction that are often inherent due to the different perspectives
+          of each person involved in a research partnership. Since researchers
+          and practitioners have different world views, experiences, and needs
+          these challenges can occur. Each challenge presents a caricature of
+          what an academic researcher and a practitioner might say and a
+          suggested convergence point, or perspective that can ease conflict and
+          improve the partnership.
+        </p>
+        <p>
+          Discussion guide: Following each challenge is a discussion guide with
+          questions that each entity in the partnership can ask the other to
+          understand each other better in an effort to address the challenges.
+          It is recommended for researchers and practitioners to have an open
+          dialogue to learn each other’s perspectives and forge a way to work
+          together.
+        </p>
+        <p>
+          Tools: Lastly, there are a list of resources, templates, or activities
+          that can assist in resolving the blindspot and improve the working
+          relationship. The title of the tool is in bold followed by the
+          citation which is a link to the document. The citation is organized in
+          the following way. (Author, Year of publication, page number to find
+          tool in document).
+        </p>
+        <p class="text-uppercase mb-1 mt-4">
+          <strong>How can I contribute to the toolkit?</strong>
+        </p>
+        <p>
+          We hope this toolkit assists your partnership. If you come across
+          other resources which may be helpful in expanding the toolkit, please
+          use the “Contribute a Resource” Form at the bottom of the homepage.
+        </p>
+        <p class="text-uppercase mb-1 mt-4"><strong>What Is LASER PULSE?</strong></p>
+        <p>
+          LASER (Long-term Services for Research) PULSE (Partners for
+          University-Led Solutions Engine) is a five-year, $70 million program
+          funded through the United States Agency for International
+          Development’s (USAID) Innovation, Technology, and Research Hub, that
+          delivers research-driven solutions to field-sourced development
+          challenges in USAID interest countries. A consortium led by Purdue
+          University, with core partners Catholic Relief Services (CRS), Indiana
+          University, Makerere University, and the University of Notre Dame
+          implements the LASER PULSE program through a growing network of 2,300+
+          researchers and development practitioners in 56 countries.
+        </p>
+        <p>
+          LASER PULSE collaborates with USAID missions, bureaus, and independent
+          offices and other local stakeholders to identify research needs for
+          critical development challenges, and funds and strengthens capacity of
+          researcher-practitioner teams to co-design solutions that translate
+          into policy and practice.
+        </p>
+        <p></p>
       </div>
     </div>
   </div>
 </div>
 
 {{ end }}
-
