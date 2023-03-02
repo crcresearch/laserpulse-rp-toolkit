@@ -91,6 +91,7 @@
       
     </div>
     <div class="col-sm-5 col-lg-4">
+      {{if gt (len $blindspot.toolkit_resources) 0}}
       <ul class="list-group mt-3">
         <li class="list-group-item p-0 border-left-0 border-right-0">
           <h6 class="mb-0 px-3 py-2 wash-400 bg-usaid-blue text-white narrow-font text-uppercase font-weight-bolder">Tools</h6> 
@@ -103,6 +104,7 @@
           </ul>
         </li>
       </ul>
+      {{ end }}
     </div>
   </div>
 </div>
